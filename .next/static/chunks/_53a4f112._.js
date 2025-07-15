@@ -9,10 +9,10 @@ __turbopack_context__.s({
     "default": (()=>MissionStatement)
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$animation$2f$hooks$2f$use$2d$animation$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/framer-motion/dist/es/animation/hooks/use-animation.mjs [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$utils$2f$use$2d$in$2d$view$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/framer-motion/dist/es/utils/use-in-view.mjs [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$scroll$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/framer-motion/dist/es/value/use-scroll.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$transform$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/framer-motion/dist/es/value/use-transform.mjs [app-client] (ecmascript)");
 ;
 var _s = __turbopack_context__.k.signature();
 "use client";
@@ -20,137 +20,116 @@ var _s = __turbopack_context__.k.signature();
 ;
 function MissionStatement() {
     _s();
-    const ref = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
-    const inView = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$utils$2f$use$2d$in$2d$view$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useInView"])(ref, {
-        once: true,
-        margin: "-100px"
-    });
-    const controls = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$animation$2f$hooks$2f$use$2d$animation$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useAnimation"])();
-    const [mousePosition, setMousePosition] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])({
-        x: 0,
-        y: 0
-    });
-    const [isHovered, setIsHovered] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
-    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
-        "MissionStatement.useEffect": ()=>{
-            if (inView) {
-                controls.start("visible");
-            }
-        }
-    }["MissionStatement.useEffect"], [
-        inView,
-        controls
-    ]);
+    var _s1 = __turbopack_context__.k.signature();
+    const containerRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
     const sentence = [
-        "To become a world-class training and resource management organization,",
-        "by empowering all stakeholders to connect, communicate,",
-        "and control seamlessly through integrated technology."
+        "To",
+        "become",
+        "a",
+        "world-class",
+        "training",
+        "and",
+        "resource",
+        "management",
+        "organization,",
+        "by",
+        "empowering",
+        "all",
+        "stakeholders",
+        "to",
+        "connect,",
+        "communicate,",
+        "and",
+        "control",
+        "seamlessly",
+        "through",
+        "integrated",
+        "technology."
     ];
-    const wrapperVariant = {
-        hidden: {
-            opacity: 0,
-            scale: 0.95,
-            y: 20
-        },
-        visible: {
-            opacity: 1,
-            scale: 1,
-            y: 0,
-            transition: {
-                duration: 0.8,
-                ease: "easeOut",
-                when: "beforeChildren",
-                staggerChildren: 0.3
-            }
-        }
-    };
-    const line = {
-        hidden: {
-            opacity: 0,
-            y: 40
-        },
-        visible: {
-            opacity: 1,
-            y: 0,
-            transition: {
-                duration: 0.8,
-                ease: "easeOut"
-            }
-        }
-    };
-    const handleMouseMove = (e)=>{
-        const { left, top } = e.currentTarget.getBoundingClientRect();
-        setMousePosition({
-            x: e.clientX - left,
-            y: e.clientY - top
-        });
-    };
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        ref: ref,
-        onMouseMove: handleMouseMove,
-        onMouseEnter: ()=>setIsHovered(true),
-        onMouseLeave: ()=>setIsHovered(false),
-        className: "h-screen w-full bg-black flex items-center justify-center px-6 text-center relative overflow-hidden",
-        children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "absolute inset-0 z-10 pointer-events-none",
-                style: {
-                    background: `radial-gradient(120px at ${mousePosition.x}px ${mousePosition.y}px, rgba(255, 255, 150, 0.5) 0%, rgba(255, 213, 0, 0.35) 40%, transparent 70%)`,
-                    maskImage: `radial-gradient(180px at ${mousePosition.x}px ${mousePosition.y}px, white 0%, transparent 80%)`,
-                    WebkitMaskImage: `radial-gradient(180px at ${mousePosition.x}px ${mousePosition.y}px, white 0%, transparent 80%)`,
-                    mixBlendMode: "screen",
-                    transition: "opacity 0.15s ease-out",
-                    opacity: isHovered ? 1 : 0,
-                    filter: "blur(2px)"
-                }
-            }, void 0, false, {
-                fileName: "[project]/src/components/MissionStatement.jsx",
-                lineNumber: 60,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "absolute inset-0 z-10 pointer-events-none",
-                style: {
-                    background: `radial-gradient(80px at ${mousePosition.x}px ${mousePosition.y}px, rgba(255, 255, 255, 0.25) 0%, transparent 70%)`,
-                    mixBlendMode: "overlay",
-                    transition: "opacity 0.15s ease-out",
-                    opacity: isHovered ? 1 : 0,
-                    filter: "blur(1px)"
-                }
-            }, void 0, false, {
-                fileName: "[project]/src/components/MissionStatement.jsx",
-                lineNumber: 74,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
-                className: "relative z-20 text-white text-xl md:text-3xl font-light space-y-3 leading-relaxed md:leading-snug max-w-3xl",
-                variants: wrapperVariant,
-                initial: "hidden",
-                animate: controls,
-                children: sentence.map((lineText, idx)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].p, {
-                        variants: line,
-                        children: lineText
-                    }, idx, false, {
-                        fileName: "[project]/src/components/MissionStatement.jsx",
-                        lineNumber: 93,
-                        columnNumber: 11
-                    }, this))
-            }, void 0, false, {
-                fileName: "[project]/src/components/MissionStatement.jsx",
-                lineNumber: 86,
-                columnNumber: 7
-            }, this)
+    const { scrollYProgress } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$scroll$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useScroll"])({
+        target: containerRef,
+        offset: [
+            "start start",
+            "end end"
         ]
-    }, void 0, true, {
+    });
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+        ref: containerRef,
+        className: "h-[400vh] bg-black text-white px-6",
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "sticky top-0 h-screen flex items-center justify-center",
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "text-4xl md:text-5xl font-light italic text-center max-w-6xl leading-snug flex flex-wrap justify-center gap-3",
+                children: sentence.map(_s1((word, index)=>{
+                    _s1();
+                    const total = sentence.length;
+                    const animationZone = 0.9; // Animate all words in 90% scroll
+                    const slice = animationZone / total;
+                    const start = index * slice;
+                    const end = start + slice;
+                    const opacity = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$transform$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useTransform"])(scrollYProgress, [
+                        start,
+                        end
+                    ], [
+                        0.2,
+                        1
+                    ]);
+                    const scale = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$transform$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useTransform"])(scrollYProgress, [
+                        start,
+                        end
+                    ], [
+                        0.9,
+                        1
+                    ]);
+                    const brightness = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$transform$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useTransform"])(scrollYProgress, [
+                        start,
+                        end
+                    ], [
+                        0.5,
+                        1
+                    ]);
+                    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].span, {
+                        style: {
+                            opacity,
+                            scale,
+                            filter: `brightness(${brightness.get()})`
+                        },
+                        className: "inline-block transition duration-300",
+                        children: [
+                            word,
+                            " "
+                        ]
+                    }, index, true, {
+                        fileName: "[project]/src/components/MissionStatement.jsx",
+                        lineNumber: 37,
+                        columnNumber: 15
+                    }, this);
+                }, "nSoYFi6RjupftEujXbm4yJHNrGA=", false, function() {
+                    return [
+                        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$transform$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useTransform"],
+                        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$transform$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useTransform"],
+                        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$transform$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useTransform"]
+                    ];
+                }))
+            }, void 0, false, {
+                fileName: "[project]/src/components/MissionStatement.jsx",
+                lineNumber: 24,
+                columnNumber: 9
+            }, this)
+        }, void 0, false, {
+            fileName: "[project]/src/components/MissionStatement.jsx",
+            lineNumber: 23,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
         fileName: "[project]/src/components/MissionStatement.jsx",
-        lineNumber: 52,
+        lineNumber: 21,
         columnNumber: 5
     }, this);
 }
-_s(MissionStatement, "td3xKORPjfNPg888IhYlGZOCqZE=", false, function() {
+_s(MissionStatement, "xX4DAprT77NLgRaInDg3PpWgeq4=", false, function() {
     return [
-        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$utils$2f$use$2d$in$2d$view$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useInView"],
-        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$animation$2f$hooks$2f$use$2d$animation$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useAnimation"]
+        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$scroll$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useScroll"]
     ];
 });
 _c = MissionStatement;
@@ -1156,7 +1135,7 @@ const FBXViewer = ()=>{
             mount.addEventListener("mouseleave", handleMouseLeave);
             // Load FBX model
             const loader = new __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$three$2d$stdlib$2f$loaders$2f$FBXLoader$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FBXLoader"]();
-            loader.load("/mentric.fbx", {
+            loader.load("/men.fbx", {
                 "FBXViewer.useEffect": (object)=>{
                     object.scale.set(0.01, 0.01, 0.01);
                     object.position.set(0, 0, 0);
@@ -1259,7 +1238,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$FBXView
 ;
 const AboutUs = ()=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "relative overflow-hidden overflow-x-hidden h-screen bg-gradient-to-br from-black text-white",
+        className: "relative min-h-screen overflow-x-hidden bg-gradient-to-br from-black text-white",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Waves$2e$js$2f$Waves$2f$Waves$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                 backgroundColor: "rgba(255, 255, 255, 0.05)",
@@ -1275,7 +1254,7 @@ const AboutUs = ()=>{
             }, void 0, false, {
                 fileName: "[project]/src/components/AboutUs.jsx",
                 lineNumber: 14,
-                columnNumber: 8
+                columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("header", {
                 className: "absolute top-0 left-0 w-full flex items-center justify-between px-4 md:px-8 py-4 z-20",
@@ -1287,30 +1266,30 @@ const AboutUs = ()=>{
                             alt: "Logo",
                             width: 140,
                             height: 50,
-                            className: "object-contain"
+                            className: "object-contain w-auto max-w-[100px] sm:max-w-[140px]"
                         }, void 0, false, {
                             fileName: "[project]/src/components/AboutUs.jsx",
-                            lineNumber: 30,
-                            columnNumber: 5
+                            lineNumber: 31,
+                            columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/AboutUs.jsx",
-                        lineNumber: 29,
-                        columnNumber: 3
+                        lineNumber: 30,
+                        columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$NavMenu$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                         fileName: "[project]/src/components/AboutUs.jsx",
-                        lineNumber: 40,
-                        columnNumber: 3
+                        lineNumber: 41,
+                        columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/AboutUs.jsx",
-                lineNumber: 27,
-                columnNumber: 1
+                lineNumber: 28,
+                columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                className: "relative flex flex-col-reverse md:flex-row items-center justify-between px-6 md:px-20 py-24 gap-16 z-10",
+                className: "relative flex flex-col-reverse md:flex-row items-center justify-between px-4 md:px-20 py-16 md:py-24 gap-12 md:gap-16 z-10",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
                         className: "absolute left-0 top-0 w-[600px] h-[600px] z-0",
@@ -1379,7 +1358,7 @@ const AboutUs = ()=>{
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
-                        className: "max-w-xl space-y-6 text-center  md:text-left z-10",
+                        className: "max-w-xl space-y-6 text-center md:text-left z-10",
                         initial: {
                             opacity: 0,
                             x: -50
@@ -1394,9 +1373,9 @@ const AboutUs = ()=>{
                         },
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "h-32 ",
+                                className: "h-[100px] md:h-32",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                    className: "text-4xl md:text-6xl font-bold leading-tight",
+                                    className: "text-3xl sm:text-4xl md:text-6xl font-bold leading-tight",
                                     children: [
                                         "Step into the",
                                         " ",
@@ -1417,18 +1396,18 @@ const AboutUs = ()=>{
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/AboutUs.jsx",
                                                 lineNumber: 81,
-                                                columnNumber: 15
+                                                columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/AboutUs.jsx",
                                             lineNumber: 80,
-                                            columnNumber: 13
+                                            columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/AboutUs.jsx",
                                     lineNumber: 78,
-                                    columnNumber: 11
+                                    columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/AboutUs.jsx",
@@ -1436,19 +1415,19 @@ const AboutUs = ()=>{
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "text-gray-300 text-base md:text-lg leading-relaxed",
+                                className: "text-gray-300 text-sm sm:text-base md:text-lg leading-relaxed",
                                 children: "Transform your digital journey with our cutting-edge solutions designed to scale and inspire."
                             }, void 0, false, {
                                 fileName: "[project]/src/components/AboutUs.jsx",
-                                lineNumber: 93,
-                                columnNumber: 8
+                                lineNumber: 94,
+                                columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "text-gray-400",
+                                className: "text-gray-400 text-sm sm:text-base",
                                 children: "Whether you're a startup or an enterprise, we tailor strategies and tools that help you stay ahead of the curve and deliver unmatched digital experiences."
                             }, void 0, false, {
                                 fileName: "[project]/src/components/AboutUs.jsx",
-                                lineNumber: 97,
+                                lineNumber: 98,
                                 columnNumber: 11
                             }, this)
                         ]
@@ -1458,7 +1437,7 @@ const AboutUs = ()=>{
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
-                        className: "relative w-full max-w-[500px] h-[500px]  z-10 ",
+                        className: "w-full max-w-[300px] h-[300px] md:max-w-[500px] md:h-[500px] z-10",
                         initial: {
                             opacity: 0,
                             scale: 0.8
@@ -1475,24 +1454,24 @@ const AboutUs = ()=>{
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$FBXViewer$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                             fileName: "[project]/src/components/AboutUs.jsx",
                             lineNumber: 112,
-                            columnNumber: 13
+                            columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/AboutUs.jsx",
-                        lineNumber: 105,
+                        lineNumber: 106,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/AboutUs.jsx",
-                lineNumber: 44,
+                lineNumber: 45,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/AboutUs.jsx",
         lineNumber: 12,
-        columnNumber: 1
+        columnNumber: 5
     }, this);
 };
 _c = AboutUs;
@@ -2559,7 +2538,7 @@ function ProductCard({ product, router }) {
         className: "relative h-screen flex flex-col items-center justify-center text-center px-4 ",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "absolute top-6   bottom-[calc(50%-20px)] right-[calc(25%-100px)] w-[200px] h-[200px] rounded-full overflow-hidden  shadow-lg",
+                className: "absolute top-1   bottom-[calc(50%-20px)] right-[calc(25%-100px)] w-[200px] h-[200px] rounded-full overflow-hidden  shadow-lg",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                     src: product.image,
                     width: 320,
@@ -2690,7 +2669,7 @@ function ProductCard2({ product, router }) {
         className: "relative h-screen flex flex-col items-center justify-center text-center px-4 ",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "absolute top-1 right-[calc(13%-100px)]  w-[350px] h-[220px] shadow-lg",
+                className: "absolute  bottom-79 right-[calc(13%-100px)]  w-[350px] h-[220px] shadow-lg",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                     src: product.image,
                     width: 420,
@@ -4463,7 +4442,7 @@ const fadeInUp = {
 function Home() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$SmoothScroll$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "min-h-screen w-full scroll-smooth bg-gradient-to-b from-black via-gray-900 to-black text-white font-sans",
+            className: "min-h-screen w-full scroll-smooth bg-gradient-to-b from-black via-gray-900 to-black   text-white font-sans",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
                     id: "home",

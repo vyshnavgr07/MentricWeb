@@ -56,7 +56,7 @@ const FBXViewer = () => {
     // Load FBX model
     const loader = new FBXLoader();
     loader.load(
-      "/mentric.fbx",
+      "/men.fbx",
       (object) => {
         object.scale.set(0.01, 0.01, 0.01);
         object.position.set(0, 0, 0);

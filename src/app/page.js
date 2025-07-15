@@ -27,7 +27,7 @@ const fadeInUp = {
 export default function Home() {
   return (
     <SmoothScroll>
-      <div className="min-h-screen w-full scroll-smooth bg-gradient-to-b from-black via-gray-900 to-black text-white font-sans">
+      <div className="min-h-screen w-full scroll-smooth bg-gradient-to-b from-black via-gray-900 to-black   text-white font-sans">
 
 
         {/* Sections with IDs */}
