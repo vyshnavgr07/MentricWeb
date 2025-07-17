@@ -9,8 +9,8 @@ import FBXViewer from "./FBXViewer";
 
 const AboutUs = () => {
   return (
-    <div className="relative min-h-screen overflow-x-hidden bg-gradient-to-br from-black text-white">
-      {/* Waves background */}
+    <div className="relative h-full md:min-h-screen overflow-x-hidden bg-gradient-to-br from-black to-gray-900 text-white">
+      {/* Waves Background */}
       <Waves
         backgroundColor="rgba(255, 255, 255, 0.05)"
         waveSpeedX={0.02}
@@ -25,9 +25,9 @@ const AboutUs = () => {
       />
 
       {/* Header */}
-      <header className="absolute top-0 left-0 w-full flex items-center justify-between px-4 md:px-8 py-4 z-20">
-        {/* Logo */}
-        <div className="flex items-center space-x-3">
+      <header className="absolute top-0 left-0 w-full z-20 py-4">
+        <div className="flex items-center justify-between px-4 sm:px-6 md:px-8 lg:px-16 max-w-screen-xl mx-auto">
+          {/* Logo */}
           <Image
             src="/log.png"
             alt="Logo"
@@ -35,15 +35,15 @@ const AboutUs = () => {
             height={50}
             className="object-contain w-auto max-w-[100px] sm:max-w-[140px]"
           />
-        </div>
 
-        {/* Navigation */}
-        <NavMenu />
+          {/* Navigation */}
+          <NavMenu />
+        </div>
       </header>
 
       {/* Hero Section */}
-      <section className="relative flex flex-col-reverse md:flex-row items-center justify-between px-4 md:px-20 py-16 md:py-24 gap-12 md:gap-16 z-10">
-        {/* Background gradient shape */}
+      <section className="relative z-10 flex flex-col-reverse   lg:flex-row items-center justify-between gap-12 md:gap-20   px-4 sm:px-6 md:px-12 xl:px-20 xl:py-20 md:py-32 max-w-screen-xl mx-auto">
+        {/* Background Effects */}
         <motion.div
           className="absolute left-0 top-0 w-[600px] h-[600px] z-0"
           style={{
@@ -55,27 +55,27 @@ const AboutUs = () => {
           transition={{ duration: 1.5 }}
         />
 
-        {/* Floating blobs */}
+        {/* Floating Blobs */}
         <motion.div
-          className="absolute -top-20 -left-20 w-80 h-80 bg-purple-600 rounded-full opacity-20 blur-3xl z-0"
+          className="absolute -top-20 -left-20 w-72 h-72 bg-purple-600 rounded-full opacity-20 blur-3xl z-0"
           animate={{ y: [0, 20, 0], scale: [1, 1.05, 1] }}
           transition={{ duration: 8, repeat: Infinity }}
         />
         <motion.div
-          className="absolute bottom-0 right-0 w-80 h-80 bg-indigo-500 rounded-full opacity-10 blur-3xl z-0"
+          className="absolute bottom-0 right-0 w-72 h-72 bg-indigo-500 rounded-full opacity-10 blur-3xl z-0"
           animate={{ y: [0, -20, 0], scale: [1, 1.1, 1] }}
           transition={{ duration: 10, repeat: Infinity }}
         />
 
         {/* Text Content */}
         <motion.div
-          className="max-w-xl space-y-6 text-center md:text-left z-10"
+          className="w-full max-w-2xl space-y-6 text-center md:text-left z-10"
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1, ease: "easeOut" }}
         >
           <div className="h-[100px] md:h-32">
-            <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold leading-tight">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-bold leading-tight">
               Step into the{" "}
               <span className="bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent">
                 <Typewriter
@@ -91,20 +91,20 @@ const AboutUs = () => {
             </h1>
           </div>
 
-          <p className="text-gray-300 text-sm sm:text-base md:text-lg leading-relaxed">
+          <p className="text-gray-300 text-sm sm:text-base md:text-2xl xl:text-xl leading-relaxed">
             Transform your digital journey with our cutting-edge solutions
             designed to scale and inspire.
           </p>
-          <p className="text-gray-400 text-sm sm:text-base">
+          <p className="text-gray-400 text-sm sm:text-base  md:text-2xl xl:text-lg">
             Whether you're a startup or an enterprise, we tailor strategies and
             tools that help you stay ahead of the curve and deliver unmatched
             digital experiences.
           </p>
         </motion.div>
 
-        {/* FBXViewer */}
+        {/* 3D Model Viewer */}
         <motion.div
-          className="w-full max-w-[300px] h-[300px] md:max-w-[500px] md:h-[500px] z-10"
+          className="w-full max-w-[280px] h-[280px] sm:max-w-[320px] sm:h-[320px] md:max-w-[440px] md:h-[440px] xl:max-w-[500px] xl:h-[500px] z-10"
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1.2, ease: "easeOut", delay: 0.3 }}

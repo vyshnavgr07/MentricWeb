@@ -109,7 +109,7 @@ function ProductCard({ product, router }) {
   return (
     <div className="relative h-screen flex flex-col items-center justify-center text-center px-4 ">
       {/* Product Image */}
-      <div className="absolute top-1   bottom-[calc(50%-20px)] right-[calc(25%-100px)] w-[200px] h-[200px] rounded-full overflow-hidden  shadow-lg">
+      <div className="absolute hidden lg:block top-1   bottom-[calc(50%-20px)] right-[calc(25%-100px)] w-[200px] h-[200px] rounded-full overflow-hidden  shadow-lg">
         <Image
           src={product.image}
           width={320}
@@ -183,7 +183,7 @@ function ProductCard2({ product, router }) {
   return (
     <div className="relative h-screen flex flex-col items-center justify-center text-center px-4 ">
       {/* Product Image */}
-      <div className="absolute  bottom-79 right-[calc(13%-100px)]  w-[350px] h-[220px] shadow-lg">
+      <div className="absolute  bottom-79 right-[calc(13%-100px)]  w-[350px] h-[220px] shadow-lg hidden lg:block ">
   <Image
     src={product.image}
     width={420}
