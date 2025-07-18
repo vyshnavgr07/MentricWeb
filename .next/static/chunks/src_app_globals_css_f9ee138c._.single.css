@@ -88,7 +88,6 @@
 
 @layer theme {
   :root, :host {
-    --color-red-900: oklch(39.6% .141 25.723);
     --color-yellow-600: oklch(68.1% .162 75.834);
     --color-emerald-500: oklch(69.6% .17 162.48);
     --color-blue-950: oklch(28.2% .091 267.935);
@@ -1126,10 +1125,6 @@
     background-color: var(--color-purple-600);
   }
 
-  .bg-red-900 {
-    background-color: var(--color-red-900);
-  }
-
   .bg-slate-900 {
     background-color: var(--color-slate-900);
   }
@@ -1979,12 +1974,6 @@
   }
 
   @media (width >= 48rem) {
-    .md\:block {
-      display: block;
-    }
-  }
-
-  @media (width >= 48rem) {
     .md\:flex {
       display: flex;
     }
@@ -2155,13 +2144,6 @@
     .md\:text-lg {
       font-size: var(--text-lg);
       line-height: var(--tw-leading, var(--text-lg--line-height));
-    }
-  }
-
-  @media (width >= 48rem) {
-    .md\:text-xl {
-      font-size: var(--text-xl);
-      line-height: var(--tw-leading, var(--text-xl--line-height));
     }
   }
 
