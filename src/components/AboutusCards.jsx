@@ -83,18 +83,17 @@ const AboutusCards = () => {
         >
           <h2 className="text-4xl font-bold text-purple-400">Mentric Technologies</h2>
           <p className="text-gray-300 text-lg">
-            We are a digital-first technology company building scalable solutions for startups, SMEs, and enterprises. From custom software development to advanced cloud integrations, Mentric Technologies is your partner in innovation.
+          Mentric Technologies is a forward-thinking digital technology company committed to building impactful and scalable solutions for modern businesses. From custom software development to advanced cloud integrations. With a strong emphasis on innovation, agility, and excellence, we help organizations stay ahead in today’s rapidly evolving tech landscape.
           </p>
           <p className="text-gray-400">
-            Our mission is to simplify complex challenges using technology and provide end-to-end digital transformation services that truly make a difference.
-          </p>
+          With a deep focus on the education and training sector, we craft impactful digital solutions that empower educators, ignite student potential, and equip institutions and teams to thrive in a tech-driven future.          </p>
           <p className="text-gray-500 text-sm">
-            Founded in 2020 • Trusted by 50+ clients • Driven by technology & vision
+            Founded in 2017 • Trusted by 50+ clients • Driven by technology & vision
           </p>
         </motion.div>
       </motion.div>
 
-      {/* Row 2: Mentric Training & Consulting */}
+      {/* Row 2: Mentric Training & Consulting */} 
       <motion.div
         className="w-full flex flex-col md:flex-row items-center justify-center gap-10"
         initial="hidden"

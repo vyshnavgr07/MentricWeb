@@ -1,5 +1,4 @@
 "use client";
-
 import { useRef, useState, useEffect } from "react";
 import { useScroll, useTransform, motion, useMotionValueEvent } from "framer-motion";
 import { useRouter } from "next/navigation";
@@ -9,9 +8,9 @@ const products = [
   {
     id: 1,
     name: "Ascend",
-    tagline: "Empowering Teachers",
+    tagline: "Empowering Teachers",                                                                                                   
     description:
-      "Explore how our products redefine user experiences across digital platforms.",
+      "Explore how our products redefine user experiences across digital platforms.",   
     image: "/asend.png",
     link: "/products/details",
   },
@@ -176,6 +175,21 @@ function ProductCard({ product, router }) {
     </div>
   );
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

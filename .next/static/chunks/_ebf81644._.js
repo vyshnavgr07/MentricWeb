@@ -2051,7 +2051,7 @@ const AboutusCards = ()=>{
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "text-gray-300 text-lg",
-                                children: "We are a digital-first technology company building scalable solutions for startups, SMEs, and enterprises. From custom software development to advanced cloud integrations, Mentric Technologies is your partner in innovation."
+                                children: "Mentric Technologies is a forward-thinking digital technology company committed to building impactful and scalable solutions for modern businesses. From custom software development to advanced cloud integrations. With a strong emphasis on innovation, agility, and excellence, we help organizations stay ahead in today’s rapidly evolving tech landscape."
                             }, void 0, false, {
                                 fileName: "[project]/src/components/AboutusCards.jsx",
                                 lineNumber: 85,
@@ -2059,7 +2059,7 @@ const AboutusCards = ()=>{
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "text-gray-400",
-                                children: "Our mission is to simplify complex challenges using technology and provide end-to-end digital transformation services that truly make a difference."
+                                children: "With a deep focus on the education and training sector, we craft impactful digital solutions that empower educators, ignite student potential, and equip institutions and teams to thrive in a tech-driven future.          "
                             }, void 0, false, {
                                 fileName: "[project]/src/components/AboutusCards.jsx",
                                 lineNumber: 88,
@@ -2067,10 +2067,10 @@ const AboutusCards = ()=>{
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "text-gray-500 text-sm",
-                                children: "Founded in 2020 • Trusted by 50+ clients • Driven by technology & vision"
+                                children: "Founded in 2017 • Trusted by 50+ clients • Driven by technology & vision"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/AboutusCards.jsx",
-                                lineNumber: 91,
+                                lineNumber: 90,
                                 columnNumber: 11
                             }, this)
                         ]
@@ -2103,7 +2103,7 @@ const AboutusCards = ()=>{
                                 children: "Mentric Training & Consulting"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/AboutusCards.jsx",
-                                lineNumber: 108,
+                                lineNumber: 107,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2111,7 +2111,7 @@ const AboutusCards = ()=>{
                                 children: "Our consulting division is committed to empowering the next generation of developers, analysts, and technologists through intensive, hands-on training programs."
                             }, void 0, false, {
                                 fileName: "[project]/src/components/AboutusCards.jsx",
-                                lineNumber: 109,
+                                lineNumber: 108,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2119,7 +2119,7 @@ const AboutusCards = ()=>{
                                 children: "We offer mentorship, bootcamps, and real-world project experience to bridge the gap between academic learning and industry requirements."
                             }, void 0, false, {
                                 fileName: "[project]/src/components/AboutusCards.jsx",
-                                lineNumber: 112,
+                                lineNumber: 111,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2127,13 +2127,13 @@ const AboutusCards = ()=>{
                                 children: "1000+ Students Trained • Corporate Workshops • Internship-integrated Learning Paths"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/AboutusCards.jsx",
-                                lineNumber: 115,
+                                lineNumber: 114,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/AboutusCards.jsx",
-                        lineNumber: 104,
+                        lineNumber: 103,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -2144,18 +2144,18 @@ const AboutusCards = ()=>{
                             alt: "Mentric Training & Consulting"
                         }, void 0, false, {
                             fileName: "[project]/src/components/AboutusCards.jsx",
-                            lineNumber: 124,
+                            lineNumber: 123,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/AboutusCards.jsx",
-                        lineNumber: 120,
+                        lineNumber: 119,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/AboutusCards.jsx",
-                lineNumber: 98,
+                lineNumber: 97,
                 columnNumber: 7
             }, this)
         ]
@@ -2308,13 +2308,13 @@ function ProductsPage() {
                                 children: "Products"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/ProductsPage.jsx",
-                                lineNumber: 68,
+                                lineNumber: 67,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/ProductsPage.jsx",
-                        lineNumber: 66,
+                        lineNumber: 65,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2322,13 +2322,13 @@ function ProductsPage() {
                         children: "Empowering your business through technology, design, and marketing."
                     }, void 0, false, {
                         fileName: "[project]/src/components/ProductsPage.jsx",
-                        lineNumber: 72,
+                        lineNumber: 71,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/ProductsPage.jsx",
-                lineNumber: 65,
+                lineNumber: 64,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2350,12 +2350,12 @@ function ProductsPage() {
                                 router: router
                             }, void 0, false, {
                                 fileName: "[project]/src/components/ProductsPage.jsx",
-                                lineNumber: 87,
+                                lineNumber: 86,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/ProductsPage.jsx",
-                            lineNumber: 83,
+                            lineNumber: 82,
                             columnNumber: 13
                         }, this),
                         activeIndex === 1 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -2371,29 +2371,29 @@ function ProductsPage() {
                                 router: router
                             }, void 0, false, {
                                 fileName: "[project]/src/components/ProductsPage.jsx",
-                                lineNumber: 97,
+                                lineNumber: 96,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/ProductsPage.jsx",
-                            lineNumber: 93,
+                            lineNumber: 92,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/ProductsPage.jsx",
-                    lineNumber: 80,
+                    lineNumber: 79,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/ProductsPage.jsx",
-                lineNumber: 78,
+                lineNumber: 77,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/ProductsPage.jsx",
-        lineNumber: 63,
+        lineNumber: 62,
         columnNumber: 5
     }, this);
 }
@@ -2425,12 +2425,12 @@ function ProductCard({ product, router }) {
                     className: "object-cover w-full h-full"
                 }, void 0, false, {
                     fileName: "[project]/src/components/ProductsPage.jsx",
-                    lineNumber: 113,
+                    lineNumber: 112,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/ProductsPage.jsx",
-                lineNumber: 112,
+                lineNumber: 111,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].h1, {
@@ -2468,12 +2468,12 @@ function ProductCard({ product, router }) {
                         children: letter
                     }, index, false, {
                         fileName: "[project]/src/components/ProductsPage.jsx",
-                        lineNumber: 138,
+                        lineNumber: 137,
                         columnNumber: 5
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/src/components/ProductsPage.jsx",
-                lineNumber: 123,
+                lineNumber: 122,
                 columnNumber: 1
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].p, {
@@ -2497,19 +2497,19 @@ function ProductCard({ product, router }) {
                         children: product.tagline
                     }, void 0, false, {
                         fileName: "[project]/src/components/ProductsPage.jsx",
-                        lineNumber: 161,
+                        lineNumber: 160,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                         fileName: "[project]/src/components/ProductsPage.jsx",
-                        lineNumber: 162,
+                        lineNumber: 161,
                         columnNumber: 9
                     }, this),
                     product.description
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/ProductsPage.jsx",
-                lineNumber: 155,
+                lineNumber: 154,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].button, {
@@ -2531,13 +2531,13 @@ function ProductCard({ product, router }) {
                 children: "Learn more →"
             }, void 0, false, {
                 fileName: "[project]/src/components/ProductsPage.jsx",
-                lineNumber: 167,
+                lineNumber: 166,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/ProductsPage.jsx",
-        lineNumber: 110,
+        lineNumber: 109,
         columnNumber: 5
     }, this);
 }
@@ -2556,12 +2556,12 @@ function ProductCard2({ product, router }) {
                     className: "object-contain w-full  h-full"
                 }, void 0, false, {
                     fileName: "[project]/src/components/ProductsPage.jsx",
-                    lineNumber: 187,
+                    lineNumber: 201,
                     columnNumber: 3
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/ProductsPage.jsx",
-                lineNumber: 186,
+                lineNumber: 200,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].h1, {
@@ -2599,12 +2599,12 @@ function ProductCard2({ product, router }) {
                         children: letter
                     }, index, false, {
                         fileName: "[project]/src/components/ProductsPage.jsx",
-                        lineNumber: 213,
+                        lineNumber: 227,
                         columnNumber: 5
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/src/components/ProductsPage.jsx",
-                lineNumber: 198,
+                lineNumber: 212,
                 columnNumber: 1
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].p, {
@@ -2628,19 +2628,19 @@ function ProductCard2({ product, router }) {
                         children: product.tagline
                     }, void 0, false, {
                         fileName: "[project]/src/components/ProductsPage.jsx",
-                        lineNumber: 236,
+                        lineNumber: 250,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                         fileName: "[project]/src/components/ProductsPage.jsx",
-                        lineNumber: 237,
+                        lineNumber: 251,
                         columnNumber: 9
                     }, this),
                     product.description
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/ProductsPage.jsx",
-                lineNumber: 230,
+                lineNumber: 244,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].button, {
@@ -2662,13 +2662,13 @@ function ProductCard2({ product, router }) {
                 children: "Learn more →"
             }, void 0, false, {
                 fileName: "[project]/src/components/ProductsPage.jsx",
-                lineNumber: 242,
+                lineNumber: 256,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/ProductsPage.jsx",
-        lineNumber: 184,
+        lineNumber: 198,
         columnNumber: 5
     }, this);
 }

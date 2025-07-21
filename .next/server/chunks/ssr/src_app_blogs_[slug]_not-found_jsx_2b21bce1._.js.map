@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///home/karthickravi/Desktop/MentricWebsite/src/app/blogs/%5Bslug%5D/not-found.jsx"],"sourcesContent":["export default function NotFound() {\n  return (\n    <div className=\"text-white text-center py-20 text-2xl\">\n      Blog not found!\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;;AAAe,SAAS;IACtB,qBACE,8OAAC;QAAI,WAAU;kBAAwC;;;;;;AAI3D","debugId":null}}]
+}

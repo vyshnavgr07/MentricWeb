@@ -98,7 +98,63 @@
   --input: oklch(1 0 0 / 15%);
   --ring: oklch(0.551 0.027 264.364);
   --chart-1: oklch(0.488 0.243 264.376);
-  --chart-2: oklch(0.696 0.17 162.48);
+  --chart-2: oklch(0.696 0export const blogs = [
+    {
+      slug: "digital-transformation-education",
+      title: "Empowering the Future: The Digital Transformation of Education and Training",
+      image: "/land.webp",
+      summary: "In today’s fast-evolving digital landscape, the way we teach, learn, and grow professionally is undergoing a fundamental shift. Education and training are no longer confined to physical classrooms or traditional methods. Digitalization is reshaping the future of learning, making it more accessible, personalized, and effective than ever before.",
+      content: `In today’s fast-evolving digital landscape, the way we teach, learn, and grow professionally is undergoing a fundamental shift. Education and training are no longer confined to physical classrooms or traditional methods. Digitalization is reshaping the future of learning, making it more accessible, personalized, and effective than ever before.
+  At Mentric Technologies, we are at the forefront of this transformation—creating intelligent, scalable solutions that empower educators, inspire learners, and support institutions in building a smarter tomorrow.
+  
+  Why Digitalization Matters in Education and Training
+  Digital transformation in education isn’t just a trend—it’s a necessity. Here’s why:
+  Accessibility for All
+   Digital platforms remove geographical and economic barriers, offering students and professionals worldwide equal access to high-quality learning resources.
+  
+  
+  Personalized Learning Experiences
+   Through data-driven insights, learners can receive customized content, real-time feedback, and flexible learning paths tailored to their individual strengths and needs.
+  
+  
+  Empowering Educators
+   Teachers and trainers benefit from tools that simplify course delivery, automate assessments, and enable interactive learning—freeing up time to focus on what matters most: mentoring and inspiration.
+  
+  
+  Scalable Training for Organizations
+   Institutions and enterprises can deliver consistent, on-demand training at scale, improving workforce performance and reducing operational costs.
+  
+  
+  
+  How Mentric Technologies is Leading the Change
+  Our commitment to innovation drives us to create robust EdTech solutions designed to meet the unique needs of learners, educators, and institutions. From AI-driven assessments and interactive learning platforms to analytics dashboards and teacher empowerment tools, we build with purpose and impact.
+  We don’t just digitize learning—we transform it.
+  Student-Centric Platforms that foster engagement, track progress, and support lifelong learning
+  
+  
+  Teacher Empowerment Tools that streamline lesson planning, feedback, and performance tracking
+  
+  
+  Institutional Dashboards that offer actionable insights for decision-makers
+  
+  
+  Hybrid & Remote Learning Solutions designed for flexibility and scalability
+  
+  
+  
+  The Road Ahead
+  As digital technology continues to evolve, so does the potential for smarter, more inclusive, and impactful learning. Whether it’s in schools, universities, or corporate training environments, the fusion of education and technology holds the key to future-ready generations.
+  At Mentric Technologies, we’re proud to be part of this journey—partnering with institutions, educators, and enterprises to shape a brighter, more connected future of learning.`,
+    },
+    {
+      slug: "ai-in-healthcare",
+      title: "Revolutionizing Healthcare with AI",
+      image: "/land.webp",
+      summary: "AI is transforming the healthcare industry...",
+      content: `The complete blog post about AI in healthcare...`,
+    },
+  ];
+  .17 162.48);
   --chart-3: oklch(0.769 0.188 70.08);
   --chart-4: oklch(0.627 0.265 303.9);
   --chart-5: oklch(0.645 0.246 16.439);
@@ -128,4 +184,12 @@ body {
 
 * {
   box-sizing: border-box;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
 }
