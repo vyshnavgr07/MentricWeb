@@ -7,7 +7,7 @@ const cards = [
   {
     title: "Case Studies",
     description: "Crafting modern and responsive websites tailored to your brand.Crafting modern and responsive websites tailored to your brand.Crafting modern and responsive websites tailored to your brand.Designing intuitive products that users love to interact with.",
-    image: "./caseStudy.webp",
+    image: "./caseStudy.jpg",
     hueA: 50,
     hueB: 45,
     link: "/caseStudies",
@@ -24,10 +24,10 @@ const cards = [
   {
     title: "Our Team",
     description: "Designing intuitive products that users love to interact with.Designing intuitive products that users love to interact with.Designing intuitive products that users love to interact with.Designing intuitive products that users love to interact with.",
-    image: "./blog.jpg",
+    image: "./teamw.jpg",
     hueA: 50,
     hueB: 45,
-    link: "/blogs",
+    link: "/team",
   }
 ];
 

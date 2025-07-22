@@ -68,7 +68,7 @@ const TeamMemberCard = ({ member })=>{
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                className: "text-base leading-relaxed text-white/80",
+                className: "text-base leading-relaxed text-white/90",
                 children: member.position
             }, void 0, false, {
                 fileName: "[project]/src/app/team/page.js",
@@ -76,7 +76,7 @@ const TeamMemberCard = ({ member })=>{
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                className: "text-base leading-relaxed text-white/80",
+                className: "text-base leading-relaxed text-white/60",
                 children: member.description
             }, void 0, false, {
                 fileName: "[project]/src/app/team/page.js",
@@ -95,37 +95,37 @@ const TeamPage = ()=>{
         {
             id: 1,
             name: "Dilip Kumar",
-            position: "Founder and MD",
+            position: "FOUNDER AND MD",
             image: "/ad.jpeg",
-            description: "Leading strategic direction and growth of the company."
+            description: " Mentric's MD, brings 20+ years of global industrial expertise. Proficient in HR, Training, Compliance, Business Support."
         },
         {
             id: 2,
             name: "Prashanth Nair",
-            position: "Investor and Director",
+            position: "INVESTOR & DIRECTOR",
             image: "/ad.jpeg",
-            description: "Supports the vision with insights and investments."
+            description: "Held leadership roles at Tata Strategic, T.I.M.E Mumbai, Advinia Healthcare (SREI Group), and Tripura Medical College."
         },
         {
             id: 3,
             name: "Manish Kumar",
-            position: "Advisor",
+            position: "ADVISOR",
             image: "/ad.jpeg",
-            description: "Drives process optimization and innovation."
+            description: "Manish Kumar, former MD and CEO of NSDC, is an esteemed leader in Indian development sectors. He was also a Mason Fellow at Harvard University."
         },
         {
             id: 4,
             name: "Amit Kulshreshtha",
-            position: "Advisor",
+            position: "ADVISOR",
             image: "/ad.jpeg",
-            description: "Heads all sales efforts and strategy."
+            description: "Amit is a veteran financial leader, co-founder of CIG, and former CEO of CIFL, with experience in investment banking and various advisory roles."
         },
         {
             id: 5,
             name: "Nagendra Sastry",
-            position: "Advisor",
+            position: "ADVISOR",
             image: "/ad.jpeg",
-            description: "Manages financial planning and operations."
+            description: "Nagendra, with 28+ years in IT, is the MD of Proclink, specializing in Data Analytics and IT process consulting with ISO and CMMI models."
         }
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -145,20 +145,20 @@ const TeamPage = ()=>{
                         className: "w-full h-full"
                     }, void 0, false, {
                         fileName: "[project]/src/app/team/page.js",
-                        lineNumber: 83,
+                        lineNumber: 89,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "absolute inset-0 bg-gradient-to-br from-black/80 via-black/70 to-black/60 z-10"
                     }, void 0, false, {
                         fileName: "[project]/src/app/team/page.js",
-                        lineNumber: 91,
+                        lineNumber: 97,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/team/page.js",
-                lineNumber: 82,
+                lineNumber: 88,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -172,7 +172,7 @@ const TeamPage = ()=>{
                                 children: "COMPANY MANAGEMENT"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/team/page.js",
-                                lineNumber: 98,
+                                lineNumber: 104,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -181,20 +181,20 @@ const TeamPage = ()=>{
                                     "Meet the team that makes",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                         fileName: "[project]/src/app/team/page.js",
-                                        lineNumber: 102,
+                                        lineNumber: 108,
                                         columnNumber: 37
                                     }, this),
                                     "the magic happens"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/team/page.js",
-                                lineNumber: 101,
+                                lineNumber: 107,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/team/page.js",
-                        lineNumber: 97,
+                        lineNumber: 103,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -203,12 +203,12 @@ const TeamPage = ()=>{
                                 member: member
                             }, member.id, false, {
                                 fileName: "[project]/src/app/team/page.js",
-                                lineNumber: 115,
+                                lineNumber: 121,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/src/app/team/page.js",
-                        lineNumber: 108,
+                        lineNumber: 114,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -217,24 +217,24 @@ const TeamPage = ()=>{
                                 member: member
                             }, member.id, false, {
                                 fileName: "[project]/src/app/team/page.js",
-                                lineNumber: 122,
+                                lineNumber: 128,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/src/app/team/page.js",
-                        lineNumber: 120,
+                        lineNumber: 126,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/team/page.js",
-                lineNumber: 95,
+                lineNumber: 101,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/team/page.js",
-        lineNumber: 80,
+        lineNumber: 86,
         columnNumber: 5
     }, this);
 };

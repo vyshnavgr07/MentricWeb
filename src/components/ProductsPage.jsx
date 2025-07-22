@@ -12,7 +12,7 @@ const products = [
     description:
       "Explore how our products redefine user experiences across digital platforms.",   
     image: "/asend.png",
-    link: "/products/details",
+    link: "https://ascend.mentrictraining.com/",
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ const products = [
     description:
       "A smart platform for engaging students and enhancing remote learning experiences.",
     image: "/explenet.png",
-    link: "/products/explanet",
+    link: "https://explenet.mentrictraining.com/",
   },
 ];
 

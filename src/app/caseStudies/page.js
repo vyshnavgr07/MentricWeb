@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { caseStudies } from "@/data/caseStudy";
+import Navbar from "@/components/Navbar";
 
 
 const container = {
@@ -26,6 +27,9 @@ const fadeUp = {
 export default function CaseStudy() {
   return (
     <section className="bg-gray-950 min-h-screen text-white py-20 px-6">
+            <div className="fixed top-0 left-0 w-full z-50">
+              <Navbar />
+            </div>
       <motion.div
         className="max-w-6xl mx-auto"
         variants={container}

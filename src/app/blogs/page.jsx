@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { blogs } from "@/data/blogData";
 import { motion } from "framer-motion";
+import Navbar from "@/components/Navbar";
 
 const container = {
   hidden: { opacity: 0 },
@@ -26,8 +27,11 @@ const fadeUp = {
 export default function BlogsPage() {
   return (
     <section className="bg-gray-950 min-h-screen text-white py-20 px-6">
+            <div className="fixed top-0 left-0 w-full z-50">
+              <Navbar />
+            </div>
       <motion.div
-        className="max-w-6xl mx-auto"
+        className="max-w-6xl mx-auto mt-5"
         variants={container}
         initial="hidden"
         animate="show"

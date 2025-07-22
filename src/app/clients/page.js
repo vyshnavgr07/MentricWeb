@@ -1,5 +1,6 @@
 "use client";
 
+import Navbar from "@/components/Navbar";
 import { motion } from "framer-motion";
 
 const container = {
@@ -77,12 +78,16 @@ const clients = [
 export default function ClientsPage() {
   return (
     <section className="bg-gray-950 min-h-screen text-white py-20 px-6">
+       <div className="fixed top-0 left-0 w-full z-50">
+        <Navbar />
+      </div>
       <motion.div
         className="max-w-6xl mx-auto"
         variants={container}
         initial="hidden"
         animate="show"
       >
+
         {/* Header */}
         <motion.h1
           className="text-4xl md:text-5xl font-bold text-center mb-4"
