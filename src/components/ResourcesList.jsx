@@ -19,6 +19,15 @@ const cards = [
     hueA: 50,
     hueB: 45,
     link: "/blogs",
+    
+  },
+  {
+    title: "Our Team",
+    description: "Designing intuitive products that users love to interact with.Designing intuitive products that users love to interact with.Designing intuitive products that users love to interact with.Designing intuitive products that users love to interact with.",
+    image: "./blog.jpg",
+    hueA: 50,
+    hueB: 45,
+    link: "/blogs",
   }
 ];
 

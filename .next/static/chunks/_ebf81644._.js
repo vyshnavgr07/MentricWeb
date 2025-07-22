@@ -2953,6 +2953,14 @@ const cards = [
         hueA: 50,
         hueB: 45,
         link: "/blogs"
+    },
+    {
+        title: "Our Team",
+        description: "Designing intuitive products that users love to interact with.Designing intuitive products that users love to interact with.Designing intuitive products that users love to interact with.Designing intuitive products that users love to interact with.",
+        image: "./blog.jpg",
+        hueA: 50,
+        hueB: 45,
+        link: "/blogs"
     }
 ];
 const cardVariants = {
@@ -3066,13 +3074,13 @@ function ScrollImageCards() {
                                 children: "Resources"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/ResourcesList.jsx",
-                                lineNumber: 138,
+                                lineNumber: 147,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/ResourcesList.jsx",
-                        lineNumber: 136,
+                        lineNumber: 145,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3080,13 +3088,13 @@ function ScrollImageCards() {
                         children: "Empowering your business through technology, design, and marketing."
                     }, void 0, false, {
                         fileName: "[project]/src/components/ResourcesList.jsx",
-                        lineNumber: 142,
+                        lineNumber: 151,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/ResourcesList.jsx",
-                lineNumber: 135,
+                lineNumber: 144,
                 columnNumber: 7
             }, this),
             cards.map(({ image, title, description, hueA, hueB, link }, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$elements$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__MotionDiv__as__div$3e$__["div"], {
@@ -3107,7 +3115,7 @@ function ScrollImageCards() {
                                     style: imageStyle
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/ResourcesList.jsx",
-                                    lineNumber: 157,
+                                    lineNumber: 166,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3120,7 +3128,7 @@ function ScrollImageCards() {
                                                     children: title
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/ResourcesList.jsx",
-                                                    lineNumber: 160,
+                                                    lineNumber: 169,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3128,13 +3136,13 @@ function ScrollImageCards() {
                                                     children: description
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/ResourcesList.jsx",
-                                                    lineNumber: 161,
+                                                    lineNumber: 170,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/ResourcesList.jsx",
-                                            lineNumber: 159,
+                                            lineNumber: 168,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -3143,19 +3151,19 @@ function ScrollImageCards() {
                                             children: "Learn More"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/ResourcesList.jsx",
-                                            lineNumber: 163,
+                                            lineNumber: 172,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/ResourcesList.jsx",
-                                    lineNumber: 158,
+                                    lineNumber: 167,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/ResourcesList.jsx",
-                            lineNumber: 156,
+                            lineNumber: 165,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3165,19 +3173,19 @@ function ScrollImageCards() {
                             }
                         }, void 0, false, {
                             fileName: "[project]/src/components/ResourcesList.jsx",
-                            lineNumber: 171,
+                            lineNumber: 180,
                             columnNumber: 11
                         }, this)
                     ]
                 }, i, true, {
                     fileName: "[project]/src/components/ResourcesList.jsx",
-                    lineNumber: 149,
+                    lineNumber: 158,
                     columnNumber: 9
                 }, this))
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/ResourcesList.jsx",
-        lineNumber: 134,
+        lineNumber: 143,
         columnNumber: 5
     }, this);
 }

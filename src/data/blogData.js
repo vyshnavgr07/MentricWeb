@@ -60,7 +60,7 @@ export const blogs = [
   {
     slug: "Expansion",
     title: "The Expansion of AI in Training: Transforming Learning for the Future",
-    image: "/land.webp",
+    image: "/dm1.jpg",
     author: "Vyshnav G R", 
     date: "July 21, 2025", 
     content: [
