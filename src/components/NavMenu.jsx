@@ -7,8 +7,9 @@ import { X, Menu } from "lucide-react";
 const navLinks = [
   { label: "Products", href: "#products" },
   { label: "Services", href: "#services" },
+
+  { label: "Resources", href: "#resources" },
   { label: "Career", href: "career" },
-  { label: "Resources", href: "career" },
 ];
 
 export default function NavMenu() {
@@ -24,14 +25,14 @@ export default function NavMenu() {
         e.preventDefault();
       }
     };
-  
+
     if (isOpen) {
       document.body.style.overflow = "hidden";
       document.body.style.position = "fixed";
       document.body.style.width = "100%";
-  
+
       window.scrollTo(0, 0);
-  
+
       window.addEventListener("touchmove", preventScroll, { passive: false });
       window.addEventListener("keydown", preventKeys);
       window.addEventListener("wheel", preventScroll, { passive: false }); // 🚫 Mouse wheel
@@ -39,26 +40,22 @@ export default function NavMenu() {
       document.body.style.overflow = "";
       document.body.style.position = "";
       document.body.style.width = "";
-  
+
       window.removeEventListener("touchmove", preventScroll);
       window.removeEventListener("keydown", preventKeys);
       window.removeEventListener("wheel", preventScroll);
     }
-  
+
     return () => {
       document.body.style.overflow = "";
       document.body.style.position = "";
       document.body.style.width = "";
-  
+
       window.removeEventListener("touchmove", preventScroll);
       window.removeEventListener("keydown", preventKeys);
       window.removeEventListener("wheel", preventScroll);
     };
   }, [isOpen]);
-  
-  
-
-
 
   const menuVariants = {
     hidden: { clipPath: "circle(0% at 0% 0%)", opacity: 0 },

@@ -8,16 +8,16 @@ const products = [
   {
     id: 1,
     name: "Ascend",
-    tagline: "Empowering Teachers",                                                                                                   
+    tagline: " Empowering Growth Through Smart Technology",                                                                                                   
     description:
-      "Explore how our products redefine user experiences across digital platforms.",   
+      "Scalable, intuitive platforms solving real-world education challenges, empowering teachers, learners, and institutions to grow.",   
     image: "/asend.png",
     link: "https://ascend.mentrictraining.com/",
   },
   {
     id: 2,
     name: "Explenet",
-    tagline: "Simplifying Education",
+    tagline: "Shaping the Future of Learning and Development",
     description:
       "A smart platform for engaging students and enhancing remote learning experiences.",
     image: "/explenet.png",
@@ -152,7 +152,7 @@ function ProductCard({ product, router }) {
 
    
       <motion.p
-        className="text-lg md:text-2xl text-white mb-8 max-w-2xl leading-relaxed z-10"
+        className="text-lg md:text-xl text-white mb-8 max-w-2xl leading-relaxed z-10"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }}
@@ -242,7 +242,7 @@ function ProductCard2({ product, router }) {
 
    
       <motion.p
-        className="text-lg md:text-2xl text-white mb-8 max-w-2xl leading-relaxed z-10"
+        className="text-lg md:text-xl text-white mb-8 max-w-2xl leading-relaxed z-10"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }}

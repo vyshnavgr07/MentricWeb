@@ -28,7 +28,7 @@ export function ServiceCard({
         </CardItem>
         <CardItem translateZ="100" rotateX={20} rotateZ={-10} className="w-full mt-4">
           <img
-            src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d"
+            src={image}
             height="1000"
             width="1000"
             className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"

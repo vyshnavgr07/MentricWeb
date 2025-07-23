@@ -7,30 +7,30 @@ const services = [
   {
     title: "Web Development",
     description:
-      "We build responsive, high-performance web apps that scale with your business goals.",
+      "Turning ideas into stunning, high-performing websites that work as hard as you do.",
     image:
-      "https://images.unsplash.com/photo-1607082349566-187348f70b25?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80",
+      "/wd2.jpg",
   },
   {
     title: "App Development",
     description:
-      "Create sleek, performant mobile apps for both iOS and Android with a user-first approach.",
+      "Your brand in every pocket—powerful, sleek apps designed for real-world impact.",
     image:
-      "https://images.unsplash.com/photo-1550507990-b9c9e0fbc9d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80",
+      "/md2.jpg",
   },
   {
     title: "Internet of Things",
     description:
-      "Connect your devices and collect insights with secure and scalable IoT platforms.",
+      "We connect the unconnected—bridging the physical and digital worlds through smart innovation.",
     image:
-      "https://images.unsplash.com/photo-1603791452906-86b1f7fd5361?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80",
+      "/iot1.jpg",
   },
   {
     title: "Digital Marketing",
     description:
-      "Reach your audience through SEO, PPC, and content strategies that convert.",
+      "Not just clicks—real conversations, loyal customers, and results that speak for themselves.",
     image:
-      "https://images.unsplash.com/photo-1556761175-4b46a572b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80",
+      "/dm2.jpg",
   },
 ];
 

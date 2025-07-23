@@ -112,7 +112,7 @@ const AboutusCards = () => {
             We offer mentorship, bootcamps, and real-world project experience to bridge the gap between academic learning and industry requirements.
           </p>
           <p className="text-gray-500 text-sm">
-            1000+ Students Trained • Corporate Workshops • Internship-integrated Learning Paths
+            100000+ Students Trained • Corporate Workshops • Internship-integrated Learning Paths
           </p>
         </motion.div>
 

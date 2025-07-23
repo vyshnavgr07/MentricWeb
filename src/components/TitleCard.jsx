@@ -21,8 +21,8 @@ const TitleCard = ({ image, alt, count, label, icon, hoverDescription }) => {
 
         {/* Stats Section */}
         <div className="absolute bottom-4 left-4 text-black z-10">
-          <h3 className="text-3xl font-semibold">{count}</h3>
-          <p className="text-sm">{label}</p>
+          <h3 className="text-3xl font-semibold text-white">{count}</h3>
+          <p className="text-sm font-bold text-white">{label}</p>
         </div>
 
         {/* Icon */}

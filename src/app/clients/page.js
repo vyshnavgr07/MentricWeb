@@ -24,70 +24,91 @@ const fadeUp = {
 
 const clients = [
   {
-    name: "Tata Group",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/7/7e/Tata_logo.svg",
-    description: "A global enterprise operating in over 100 countries.",
+    src: "./schnider.png",
+    name: "Schneider Electrics",
+    description: "Global leader in energy management and automation solutions.",
   },
   {
-    name: "Tata Consultancy Services",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/7/7e/Tata_logo.svg",
-    description: "Global leader in IT services, consulting and business solutions.",
+    src: "./wonderla.png",
+    name: "Wonderla",
+    description: "India’s top amusement park chain known for thrilling experiences.",
   },
   {
-    name: "Tata Motors",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/7/7e/Tata_logo.svg",
-    description: "Pioneer in automotive manufacturing and innovation.",
+    src: "/brand1.png",
+    name: "Sterling and Wilson",
+    description: "Engineering firm offering EPC solutions in energy and infrastructure.",
   },
   {
-    name: "Microsoft",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg",
-    description: "Empowering every person and organization on the planet.",
+    src: "/brand2.png",
+    name: "TCFM",
+    description: "Trusted facility management services across commercial and industrial spaces.",
   },
   {
-    name: "Apple Inc.",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg",
-    description: "Known for its innovation in design and consumer tech.",
+    src: "/brand3.png",
+    name: "Dusters Total Solutions",
+    description: "Integrated facility management services with nationwide reach.",
   },
   {
-    name: "Google",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg",
-    description: "Organizing the world's information and making it universally accessible.",
+    src: "/brand4.png",
+    name: "Compass",
+    description: "Global foodservice and support services leader operating in multiple sectors.",
   },
   {
-    name: "Facebook",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg",
-    description: "Connecting people and building communities.",
+    src: "/brand5.png",
+    name: "Future Group",
+    description: "Indian retail pioneer operating prominent retail chains and consumer brands.",
   },
   {
-    name: "YouTube",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg",
-    description: "The world’s largest video-sharing platform.",
+    src: "/brand6.png",
+    name: "Handiman",
+    description: "Professional facility and maintenance service provider for businesses.",
   },
   {
-    name: "Spotify",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg",
-    description: "Streaming music for everyone, everywhere.",
+    src: "/brand7.png",
+    name: "JLL",
+    description: "Global real estate services firm focused on property and investment management.",
   },
   {
-    name: "Tesla",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/b/bd/Tesla_Motors.svg",
-    description: "Accelerating the world's transition to sustainable energy.",
+    src: "/brand8.png",
+    name: "NSDC",
+    description: "Public-private partnership promoting skill development in India.",
+  },
+  {
+    src: "/brand9.png",
+    name: "RAMAIAH",
+    description: "Renowned educational and healthcare institution based in Bangalore.",
+  },
+  // {
+  //   src: "/brand11.png",
+  //   name: "TEKTON",
+  //   description: "Renowned educational and healthcare institution based in Bangalore.",
+  // },
+  {
+    src: "/brand12.png",
+    name: "SQUIRREL",
+    description: "Renowned educational and healthcare institution based in Bangalore.",
+  },
+  {
+    src: "/brand14.png",
+    name: "SAKSHAM",
+    description: "Renowned educational and healthcare institution based in Bangalore.",
+  },
+  {
+    src: "/brand15.jpg",
+    name: "Handheldspro",
+    description: "Renowned educational and healthcare institution based in Bangalore.",
   },
 ];
 
 export default function ClientsPage() {
   return (
     <section className="bg-gray-950 min-h-screen text-white py-20 px-6">
-       <div className="fixed top-0 left-0 w-full z-50">
-        <Navbar />
-      </div>
       <motion.div
         className="max-w-6xl mx-auto"
         variants={container}
         initial="hidden"
         animate="show"
       >
-
         {/* Header */}
         <motion.h1
           className="text-4xl md:text-5xl font-bold text-center mb-4"
@@ -115,7 +136,7 @@ export default function ClientsPage() {
             >
               <div className="flex items-center justify-center mb-4">
                 <img
-                  src={client.logo}
+                  src={client.src}
                   alt={client.name}
                   className="h-12 object-contain"
                 />

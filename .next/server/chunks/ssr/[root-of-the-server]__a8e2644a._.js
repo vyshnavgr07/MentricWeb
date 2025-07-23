@@ -732,11 +732,11 @@ const navLinks = [
         href: "#services"
     },
     {
-        label: "Career",
-        href: "career"
+        label: "Resources",
+        href: "#resources"
     },
     {
-        label: "Resources",
+        label: "Career",
         href: "career"
     }
 ];
@@ -860,12 +860,12 @@ function NavMenu() {
                             size: 32
                         }, void 0, false, {
                             fileName: "[project]/src/components/NavMenu.jsx",
-                            lineNumber: 103,
+                            lineNumber: 100,
                             columnNumber: 15
                         }, this)
                     }, "open", false, {
                         fileName: "[project]/src/components/NavMenu.jsx",
-                        lineNumber: 93,
+                        lineNumber: 90,
                         columnNumber: 13
                     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].button, {
                         initial: {
@@ -893,22 +893,22 @@ function NavMenu() {
                             size: 32
                         }, void 0, false, {
                             fileName: "[project]/src/components/NavMenu.jsx",
-                            lineNumber: 116,
+                            lineNumber: 113,
                             columnNumber: 15
                         }, this)
                     }, "close", false, {
                         fileName: "[project]/src/components/NavMenu.jsx",
-                        lineNumber: 106,
+                        lineNumber: 103,
                         columnNumber: 13
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/NavMenu.jsx",
-                    lineNumber: 91,
+                    lineNumber: 88,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/NavMenu.jsx",
-                lineNumber: 90,
+                lineNumber: 87,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$components$2f$AnimatePresence$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["AnimatePresence"], {
@@ -947,7 +947,7 @@ function NavMenu() {
                                             children: link.label
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/NavMenu.jsx",
-                                            lineNumber: 150,
+                                            lineNumber: 147,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].span, {
@@ -964,13 +964,13 @@ function NavMenu() {
                                             children: link.label
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/NavMenu.jsx",
-                                            lineNumber: 163,
+                                            lineNumber: 160,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/NavMenu.jsx",
-                                    lineNumber: 148,
+                                    lineNumber: 145,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -987,28 +987,28 @@ function NavMenu() {
                                         className: "absolute top-0 left-0 w-full h-[2px] bg-white origin-right"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/NavMenu.jsx",
-                                        lineNumber: 178,
+                                        lineNumber: 175,
                                         columnNumber: 19
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/NavMenu.jsx",
-                                    lineNumber: 177,
+                                    lineNumber: 174,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, `${link.label}-${i}`, true, {
                             fileName: "[project]/src/components/NavMenu.jsx",
-                            lineNumber: 134,
+                            lineNumber: 131,
                             columnNumber: 15
                         }, this))
                 }, "menu", false, {
                     fileName: "[project]/src/components/NavMenu.jsx",
-                    lineNumber: 125,
+                    lineNumber: 122,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/NavMenu.jsx",
-                lineNumber: 123,
+                lineNumber: 120,
                 columnNumber: 7
             }, this)
         ]
@@ -1305,17 +1305,17 @@ const AboutUs = ()=>{
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "h-[100px] md:h-32",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                    className: "text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-bold leading-tight",
+                                    className: "text-3xl sm:text-4xl md:text-5xl xl:text-5xl font-bold leading-tight",
                                     children: [
-                                        "Step into the",
+                                        "Make your move",
                                         " ",
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             className: "bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$simple$2d$typewriter$2f$dist$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Typewriter"], {
                                                 words: [
-                                                    "future",
-                                                    "digital revolution",
-                                                    "next generation"
+                                                    "into the progress.",
+                                                    "toward aspiration.",
+                                                    "into the virtual."
                                                 ],
                                                 loop: 0,
                                                 cursor: true,
@@ -1346,7 +1346,7 @@ const AboutUs = ()=>{
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "text-gray-300 text-sm sm:text-base md:text-2xl xl:text-xl leading-relaxed",
-                                children: "Transform your digital journey with our cutting-edge solutions designed to scale and inspire."
+                                children: "Transform Your Virtual Venture with Our Professional Digital Excellence and Expertise"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/AboutUs.jsx",
                                 lineNumber: 94,
@@ -1354,10 +1354,10 @@ const AboutUs = ()=>{
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "text-gray-400 text-sm sm:text-base  md:text-2xl xl:text-lg",
-                                children: "Whether you're a startup or an enterprise, we tailor strategies and tools that help you stay ahead of the curve and deliver unmatched digital experiences."
+                                children: "Whether you're a nimble startup, a scaling mid-size firm, or a well-established enterprise, our solutions are tailored to meet your unique challenges and help to unlock new opportunities and break the shackles of limitation."
                             }, void 0, false, {
                                 fileName: "[project]/src/components/AboutUs.jsx",
-                                lineNumber: 98,
+                                lineNumber: 97,
                                 columnNumber: 11
                             }, this)
                         ]
@@ -1383,12 +1383,12 @@ const AboutUs = ()=>{
                         },
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$FBXViewer$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                             fileName: "[project]/src/components/AboutUs.jsx",
-                            lineNumber: 112,
+                            lineNumber: 109,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/AboutUs.jsx",
-                        lineNumber: 106,
+                        lineNumber: 103,
                         columnNumber: 9
                     }, this)
                 ]
@@ -1587,7 +1587,7 @@ function ServiceCard({ title = "Card Title", description = "This is a reusable 3
                     rotateZ: -10,
                     className: "w-full mt-4",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                        src: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d",
+                        src: image,
                         height: "1000",
                         width: "1000",
                         className: "h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl",
@@ -1633,23 +1633,23 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Service
 const services = [
     {
         title: "Web Development",
-        description: "We build responsive, high-performance web apps that scale with your business goals.",
-        image: "https://images.unsplash.com/photo-1607082349566-187348f70b25?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80"
+        description: "Turning ideas into stunning, high-performing websites that work as hard as you do.",
+        image: "/wd2.jpg"
     },
     {
         title: "App Development",
-        description: "Create sleek, performant mobile apps for both iOS and Android with a user-first approach.",
-        image: "https://images.unsplash.com/photo-1550507990-b9c9e0fbc9d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80"
+        description: "Your brand in every pocket—powerful, sleek apps designed for real-world impact.",
+        image: "/md2.jpg"
     },
     {
         title: "Internet of Things",
-        description: "Connect your devices and collect insights with secure and scalable IoT platforms.",
-        image: "https://images.unsplash.com/photo-1603791452906-86b1f7fd5361?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80"
+        description: "We connect the unconnected—bridging the physical and digital worlds through smart innovation.",
+        image: "/iot1.jpg"
     },
     {
         title: "Digital Marketing",
-        description: "Reach your audience through SEO, PPC, and content strategies that convert.",
-        image: "https://images.unsplash.com/photo-1556761175-4b46a572b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80"
+        description: "Not just clicks—real conversations, loyal customers, and results that speak for themselves.",
+        image: "/dm2.jpg"
     }
 ];
 const Services = ()=>{
@@ -2004,7 +2004,7 @@ const AboutusCards = ()=>{
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "text-gray-500 text-sm",
-                                children: "1000+ Students Trained • Corporate Workshops • Internship-integrated Learning Paths"
+                                children: "100000+ Students Trained • Corporate Workshops • Internship-integrated Learning Paths"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/AboutusCards.jsx",
                                 lineNumber: 114,
@@ -2097,15 +2097,15 @@ const products = [
     {
         id: 1,
         name: "Ascend",
-        tagline: "Empowering Teachers",
-        description: "Explore how our products redefine user experiences across digital platforms.",
+        tagline: " Empowering Growth Through Smart Technology",
+        description: "Scalable, intuitive platforms solving real-world education challenges, empowering teachers, learners, and institutions to grow.",
         image: "/asend.png",
         link: "https://ascend.mentrictraining.com/"
     },
     {
         id: 2,
         name: "Explenet",
-        tagline: "Simplifying Education",
+        tagline: "Shaping the Future of Learning and Development",
         description: "A smart platform for engaging students and enhancing remote learning experiences.",
         image: "/explenet.png",
         link: "https://explenet.mentrictraining.com/"
@@ -2357,7 +2357,7 @@ function ProductCard({ product, router }) {
                 columnNumber: 1
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].p, {
-                className: "text-lg md:text-2xl text-white mb-8 max-w-2xl leading-relaxed z-10",
+                className: "text-lg md:text-xl text-white mb-8 max-w-2xl leading-relaxed z-10",
                 initial: {
                     opacity: 0,
                     y: 20
@@ -2487,7 +2487,7 @@ function ProductCard2({ product, router }) {
                 columnNumber: 1
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].p, {
-                className: "text-lg md:text-2xl text-white mb-8 max-w-2xl leading-relaxed z-10",
+                className: "text-lg md:text-xl text-white mb-8 max-w-2xl leading-relaxed z-10",
                 initial: {
                     opacity: 0,
                     y: 20
@@ -2599,7 +2599,7 @@ const TitleCard = ({ image, alt, count, label, icon, hoverDescription })=>{
                     className: "absolute bottom-4 left-4 text-black z-10",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                            className: "text-3xl font-semibold",
+                            className: "text-3xl font-semibold text-white",
                             children: count
                         }, void 0, false, {
                             fileName: "[project]/src/components/TitleCard.jsx",
@@ -2607,7 +2607,7 @@ const TitleCard = ({ image, alt, count, label, icon, hoverDescription })=>{
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "text-sm",
+                            className: "text-sm font-bold text-white",
                             children: label
                         }, void 0, false, {
                             fileName: "[project]/src/components/TitleCard.jsx",
@@ -2697,25 +2697,25 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$TitleCa
 ;
 const cardData = [
     {
-        image: "https://media.istockphoto.com/id/1332358775/photo/young-couple-shaking-hands-deal-contract-real-estate-investment-business-agreement-agent.jpg?s=612x612&w=0&k=20&c=tADtuQ9F_eKe_hMH0k5Ldg7N4p5BojisWf2n-jXar_I=",
+        image: "cl.png",
         alt: "Happy Clients",
-        count: "30+",
-        label: "Happy Clients",
-        hoverDescription: "We’ve successfully delivered top-notch services to more than 30 clients globally."
-    },
-    {
-        image: "https://images.unsplash.com/photo-1607746882042-944635dfe10e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=60",
-        alt: "Projects Completed",
         count: "50+",
-        label: "Projects",
-        hoverDescription: "Over 50 diverse projects completed with excellent client satisfaction."
+        label: "Happy Clients",
+        hoverDescription: "We’ve successfully delivered top-notch services to more than 50 clients globally."
     },
     {
-        image: "https://images.unsplash.com/photo-1591696205602-2f950c417cb9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=60",
-        alt: "Team Members",
-        count: "10+",
-        label: "Team Members",
-        hoverDescription: "A passionate team of professionals driving quality and innovation."
+        image: "/dd2.png",
+        alt: "Deep Domain Expertise",
+        count: "4+ Domains",
+        label: "Deep Domain Expertise",
+        hoverDescription: " With proven experience across industries like EdTech, HealthTech, and Enterprise SaaS, we understand the nuances of each domain. This enables us to design and build tailored digital products that align with your industry needs, ensuring faster delivery, better user experience, and business impact."
+    },
+    {
+        image: "/st3.png",
+        alt: "Continuous Support & Maintenance",
+        count: "24/7",
+        label: "ongoing support and maintenace",
+        hoverDescription: " Our dedicated support team offers proactive monitoring, quick resolution, and 24/7 assistance to ensure your systems remain robust, up-to-date, and fully optimized—anytime you need us."
     }
 ];
 const Whychooseus = ()=>{
@@ -2798,7 +2798,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navi
 const cards = [
     {
         title: "Case Studies",
-        description: "Crafting modern and responsive websites tailored to your brand.Crafting modern and responsive websites tailored to your brand.Crafting modern and responsive websites tailored to your brand.Designing intuitive products that users love to interact with.",
+        description: "See our real-world impact. Our case studies reveal how we've solved challenges and delivered measurable results for businesses just like yours. Discover the strategies behind our success stories.",
         image: "./caseStudy.jpg",
         hueA: 50,
         hueB: 45,
@@ -2806,7 +2806,7 @@ const cards = [
     },
     {
         title: "Blogs",
-        description: "Designing intuitive products that users love to interact with.Designing intuitive products that users love to interact with.Designing intuitive products that users love to interact with.Designing intuitive products that users love to interact with.",
+        description: "Unlock valuable insights and stay ahead. Our blog offers expert advice, the latest industry trends, and practical tips to inform, inspire, and empower your business journey.",
         image: "./blog.jpg",
         hueA: 50,
         hueB: 45,
@@ -3072,32 +3072,40 @@ const logos = [
         name: "Wonderla"
     },
     {
-        src: "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg",
-        name: "Apple Inc."
+        src: "/brand1.png",
+        name: "Sterling and wilson "
     },
     {
-        src: "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg",
-        name: "Google"
+        src: "/brand2.png",
+        name: "TCFM"
     },
     {
-        src: "https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg",
-        name: "Facebook"
+        src: "/brand3.png",
+        name: "Dusters total solutions"
     },
     {
-        src: "https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg",
-        name: "YouTube"
+        src: "/brand4.png",
+        name: "Compass"
     },
     {
-        src: "https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg",
-        name: "Spotify"
+        src: "/brand5.png",
+        name: "Future Group"
     },
     {
-        src: "https://upload.wikimedia.org/wikipedia/commons/b/bd/Tesla_Motors.svg",
-        name: "Tesla"
+        src: "/brand6.png",
+        name: "Handiman"
     },
     {
-        src: "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
-        name: "Amazon"
+        src: "/brand7.png",
+        name: "JLL"
+    },
+    {
+        src: "/brand8.png",
+        name: "NSDC"
+    },
+    {
+        src: "/brand9.png",
+        name: "RAMAIAH"
     }
 ];
 const containerVariants = {
@@ -3156,13 +3164,13 @@ function ClientsPage() {
                                     children: "Esteemed Clients"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/OurClients.jsx",
-                                    lineNumber: 77,
+                                    lineNumber: 85,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/OurClients.jsx",
-                            lineNumber: 75,
+                            lineNumber: 83,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3170,20 +3178,20 @@ function ClientsPage() {
                             children: "Empowering your business through technology, design, and marketing."
                         }, void 0, false, {
                             fileName: "[project]/src/components/OurClients.jsx",
-                            lineNumber: 81,
+                            lineNumber: 89,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/OurClients.jsx",
-                    lineNumber: 74,
+                    lineNumber: 82,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "h-1 bg-gradient-to-r from-purple-600 via-pink-500 to-purple-600 w-1/2 mx-auto mb-16 rounded-full blur-sm opacity-70"
                 }, void 0, false, {
                     fileName: "[project]/src/components/OurClients.jsx",
-                    lineNumber: 87,
+                    lineNumber: 95,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -3211,7 +3219,7 @@ function ClientsPage() {
                                         className: "w-full h-14 object-contain mb-4 transform transition-transform duration-300 group-hover:scale-110"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/OurClients.jsx",
-                                        lineNumber: 104,
+                                        lineNumber: 112,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3219,23 +3227,23 @@ function ClientsPage() {
                                         children: logo.name
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/OurClients.jsx",
-                                        lineNumber: 109,
+                                        lineNumber: 117,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/OurClients.jsx",
-                                lineNumber: 103,
+                                lineNumber: 111,
                                 columnNumber: 13
                             }, this)
                         }, index, false, {
                             fileName: "[project]/src/components/OurClients.jsx",
-                            lineNumber: 97,
+                            lineNumber: 105,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/src/components/OurClients.jsx",
-                    lineNumber: 89,
+                    lineNumber: 97,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -3270,29 +3278,29 @@ function ClientsPage() {
                                 children: "→"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/OurClients.jsx",
-                                lineNumber: 130,
+                                lineNumber: 138,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/OurClients.jsx",
-                        lineNumber: 125,
+                        lineNumber: 133,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/OurClients.jsx",
-                    lineNumber: 119,
+                    lineNumber: 127,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/OurClients.jsx",
-            lineNumber: 73,
+            lineNumber: 81,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/OurClients.jsx",
-        lineNumber: 67,
+        lineNumber: 75,
         columnNumber: 5
     }, this);
 }
@@ -3736,6 +3744,10 @@ const navLinks = [
         href: "#products"
     },
     {
+        label: "services",
+        href: "#services"
+    },
+    {
         label: "Resources",
         href: "#resources"
     },
@@ -3768,17 +3780,17 @@ function Navbar() {
                                 className: "rounded-full cursor-pointer"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Navbar.jsx",
-                                lineNumber: 24,
+                                lineNumber: 25,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/Navbar.jsx",
-                            lineNumber: 23,
+                            lineNumber: 24,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/Navbar.jsx",
-                        lineNumber: 22,
+                        lineNumber: 23,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
@@ -3789,12 +3801,12 @@ function Navbar() {
                                 children: link.label
                             }, link.href, false, {
                                 fileName: "[project]/src/components/Navbar.jsx",
-                                lineNumber: 37,
+                                lineNumber: 38,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/src/components/Navbar.jsx",
-                        lineNumber: 35,
+                        lineNumber: 36,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3803,13 +3815,13 @@ function Navbar() {
                         children: "☰"
                     }, void 0, false, {
                         fileName: "[project]/src/components/Navbar.jsx",
-                        lineNumber: 48,
+                        lineNumber: 49,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/Navbar.jsx",
-                lineNumber: 20,
+                lineNumber: 21,
                 columnNumber: 7
             }, this),
             isOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3821,18 +3833,18 @@ function Navbar() {
                         children: link.label
                     }, link.href, false, {
                         fileName: "[project]/src/components/Navbar.jsx",
-                        lineNumber: 57,
+                        lineNumber: 58,
                         columnNumber: 13
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/src/components/Navbar.jsx",
-                lineNumber: 55,
+                lineNumber: 56,
                 columnNumber: 9
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/Navbar.jsx",
-        lineNumber: 19,
+        lineNumber: 20,
         columnNumber: 5
     }, this);
 }
@@ -4110,19 +4122,19 @@ function Testimonials() {
             quote: "Mentric Technologies has helped us the best with redesigning our website. They not only reduced its loading time by implementing the right technology but also ensured that it is attractive and easy-to-use. They developed custom modules by understanding our needs effectively, ensured seamless communication for managing exigencies and delivered regular updates. Highly recommend them if you are looking for great output.",
             name: "Binoj",
             designation: "Director of Tekton",
-            src: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=3560&auto=format&fit=crop"
+            src: "/tekton.png"
         },
         {
             quote: "Fantastic work! I am just impressed by their service quality and working strategy. I hired them for the development of my online store and they have satisfied me to the full by delivering the exceptional solution. They have a great expertise, are dedicated, attentive, talented and care much about the client needs. Highly recommended.",
             name: "Sukumar R",
             designation: "Director of Squirrel Services",
-            src: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=3540&auto=format&fit=crop"
+            src: "/squrrel.png"
         },
         {
             quote: "Working with the Mentric Technologies team was a pleasant experience. Two things in particular about their service is exceptional: their speed of response to emails, they were always available to answer my questions and provide feedback as the project went along. Secondly they demonstrated a clear understanding of the scope and nature of the project and delivered accordingly.",
             name: "Govindappa B",
             designation: "Director of Saksham Interiors Private Limited",
-            src: "https://images.unsplash.com/photo-1623582854588-d60de57fa33f?q=80&w=3540&auto=format&fit=crop"
+            src: "/saksham.jpeg"
         }
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {

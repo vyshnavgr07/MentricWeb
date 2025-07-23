@@ -75,11 +75,11 @@ const AboutUs = () => {
           transition={{ duration: 1, ease: "easeOut" }}
         >
           <div className="h-[100px] md:h-32">
-            <h1 className="text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-bold leading-tight">
-              Step into the{" "}
+            <h1 className="text-3xl sm:text-4xl md:text-5xl xl:text-5xl font-bold leading-tight">
+            Make your move{" "}
               <span className="bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent">
                 <Typewriter
-                  words={["future", "digital revolution", "next generation"]}
+                  words={["into the progress.", "toward aspiration.", "into the virtual."]}
                   loop={0}
                   cursor
                   cursorStyle="_"
@@ -92,13 +92,10 @@ const AboutUs = () => {
           </div>
 
           <p className="text-gray-300 text-sm sm:text-base md:text-2xl xl:text-xl leading-relaxed">
-            Transform your digital journey with our cutting-edge solutions
-            designed to scale and inspire.
+          Transform Your Virtual Venture with Our Professional Digital Excellence and Expertise
           </p>
           <p className="text-gray-400 text-sm sm:text-base  md:text-2xl xl:text-lg">
-            Whether you're a startup or an enterprise, we tailor strategies and
-            tools that help you stay ahead of the curve and deliver unmatched
-            digital experiences.
+         Whether you're a nimble startup, a scaling mid-size firm, or a well-established enterprise, our solutions are tailored to meet your unique challenges and help to unlock new opportunities and break the shackles of limitation.
           </p>
         </motion.div>
 

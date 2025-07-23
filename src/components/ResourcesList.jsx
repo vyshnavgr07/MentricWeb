@@ -6,7 +6,7 @@ import { useRouter } from "next/navigation";
 const cards = [
   {
     title: "Case Studies",
-    description: "Crafting modern and responsive websites tailored to your brand.Crafting modern and responsive websites tailored to your brand.Crafting modern and responsive websites tailored to your brand.Designing intuitive products that users love to interact with.",
+    description: "See our real-world impact. Our case studies reveal how we've solved challenges and delivered measurable results for businesses just like yours. Discover the strategies behind our success stories.",
     image: "./caseStudy.jpg",
     hueA: 50,
     hueB: 45,
@@ -14,7 +14,7 @@ const cards = [
   },
   {
     title: "Blogs",
-    description: "Designing intuitive products that users love to interact with.Designing intuitive products that users love to interact with.Designing intuitive products that users love to interact with.Designing intuitive products that users love to interact with.",
+    description: "Unlock valuable insights and stay ahead. Our blog offers expert advice, the latest industry trends, and practical tips to inform, inspire, and empower your business journey.",
     image: "./blog.jpg",
     hueA: 50,
     hueB: 45,

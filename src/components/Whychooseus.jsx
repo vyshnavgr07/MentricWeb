@@ -4,30 +4,30 @@ import TitleCard from "./TitleCard";
 const cardData = [
   {
     image:
-      "https://media.istockphoto.com/id/1332358775/photo/young-couple-shaking-hands-deal-contract-real-estate-investment-business-agreement-agent.jpg?s=612x612&w=0&k=20&c=tADtuQ9F_eKe_hMH0k5Ldg7N4p5BojisWf2n-jXar_I=",
+      "cl.png",
     alt: "Happy Clients",
-    count: "30+",
+    count: "50+",
     label: "Happy Clients",
     hoverDescription:
-      "We’ve successfully delivered top-notch services to more than 30 clients globally.",
+      "We’ve successfully delivered top-notch services to more than 50 clients globally.",
   },
   {
     image:
-      "https://images.unsplash.com/photo-1607746882042-944635dfe10e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=60",
-    alt: "Projects Completed",
-    count: "50+",
-    label: "Projects",
+      "/dd2.png",
+    alt: "Deep Domain Expertise",
+    count: "4+ Domains",
+    label: "Deep Domain Expertise",
     hoverDescription:
-      "Over 50 diverse projects completed with excellent client satisfaction.",
+      " With proven experience across industries like EdTech, HealthTech, and Enterprise SaaS, we understand the nuances of each domain. This enables us to design and build tailored digital products that align with your industry needs, ensuring faster delivery, better user experience, and business impact.",
   },
   {
     image:
-      "https://images.unsplash.com/photo-1591696205602-2f950c417cb9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=60",
-    alt: "Team Members",
-    count: "10+",
-    label: "Team Members",
+      "/st3.png",
+    alt: "Continuous Support & Maintenance",
+    count: "24/7",
+    label: "ongoing support and maintenace",
     hoverDescription:
-      "A passionate team of professionals driving quality and innovation.",
+      " Our dedicated support team offers proactive monitoring, quick resolution, and 24/7 assistance to ensure your systems remain robust, up-to-date, and fully optimized—anytime you need us.",
   }
 ];
 

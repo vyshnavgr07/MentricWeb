@@ -13,32 +13,40 @@ const logos = [
     name: "Wonderla",
   },
   {
-    src: "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg",
-    name: "Apple Inc.",
+    src: "/brand1.png",
+    name: "Sterling and wilson ",
   },
   {
-    src: "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg",
-    name: "Google",
+    src: "/brand2.png",
+    name: "TCFM",
   },
   {
-    src: "https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg",
-    name: "Facebook",
+    src: "/brand3.png",
+    name: "Dusters total solutions",
   },
   {
-    src: "https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg",
-    name: "YouTube",
+    src: "/brand4.png",
+    name: "Compass",
   },
   {
-    src: "https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg",
-    name: "Spotify",
+    src: "/brand5.png",
+    name: "Future Group",
   },
   {
-    src: "https://upload.wikimedia.org/wikipedia/commons/b/bd/Tesla_Motors.svg",
-    name: "Tesla",
+    src: "/brand6.png",
+    name: "Handiman",
   },
   {
-    src: "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
-    name: "Amazon",
+    src: "/brand7.png",
+    name: "JLL",
+  },
+  {
+    src: "/brand8.png",
+    name: "NSDC",
+  },
+  {
+    src: "/brand9.png",
+    name: "RAMAIAH",
   },
 ];
 

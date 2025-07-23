@@ -44,7 +44,7 @@ const TeamPage = () => {
       id: 1,
       name: "Dilip Kumar",
       position: "FOUNDER AND MD",
-      image: "/ad.jpeg",
+      image: "/t1.jpeg",
       description:
         " Mentric's MD, brings 20+ years of global industrial expertise. Proficient in HR, Training, Compliance, Business Support."
     },
@@ -52,7 +52,7 @@ const TeamPage = () => {
       id: 2,
       name: "Prashanth Nair",
       position: "INVESTOR & DIRECTOR",
-      image: "/ad.jpeg",
+      image: "/t2.jpeg",
       description:
         "Held leadership roles at Tata Strategic, T.I.M.E Mumbai, Advinia Healthcare (SREI Group), and Tripura Medical College."
     },
@@ -60,7 +60,7 @@ const TeamPage = () => {
       id: 3,
       name: "Manish Kumar",
       position: "ADVISOR",
-      image: "/ad.jpeg",
+      image: "/t4.jpeg",
       description:
         "Manish Kumar, former MD and CEO of NSDC, is an esteemed leader in Indian development sectors. He was also a Mason Fellow at Harvard University."
     },
@@ -68,7 +68,7 @@ const TeamPage = () => {
       id: 4,
       name: "Amit Kulshreshtha",
       position: "ADVISOR",
-      image: "/ad.jpeg",
+      image: "/t3.jpeg",
       description:
         "Amit is a veteran financial leader, co-founder of CIG, and former CEO of CIFL, with experience in investment banking and various advisory roles."
     },
@@ -76,7 +76,7 @@ const TeamPage = () => {
       id: 5,
       name: "Nagendra Sastry",
       position: "ADVISOR",
-      image: "/ad.jpeg",
+      image: "/t5.jpeg",
       description:
         "Nagendra, with 28+ years in IT, is the MD of Proclink, specializing in Data Analytics and IT process consulting with ISO and CMMI models."
     }
@@ -85,9 +85,7 @@ const TeamPage = () => {
 
   return (
     <div className="relative min-h-screen w-full overflow-hidden">
- <div className="fixed top-0 left-0 w-full z-50">
-  <Navbar />
-</div>
+
 
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
@@ -103,7 +101,7 @@ const TeamPage = () => {
       </div>
 
       {/* Content */}
-      <div className="relative  z-10 px-6 py-10 mx-auto max-w-7xl text-white lg:px-10">
+      <div className="relative mt-3  z-10 px-6 py-10 mx-auto max-w-7xl text-white lg:px-10">
         {/* Header */}
         <div className="text-center mb-10 ">
           <p className="text-sm font-medium tracking-[0.2em] uppercase text-white/80">
