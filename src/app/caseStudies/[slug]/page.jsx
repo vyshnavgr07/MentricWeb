@@ -93,18 +93,24 @@ export default function CaseStudyDetail({ params }) {
         <aside className="col-span-1 sticky top-20 h-fit bg-white border border-gray-200 rounded-xl shadow p-5">
           <h3 className="text-lg font-semibold text-[#111827] mb-4">More Case Studies</h3>
           <ul className="space-y-3 text-sm">
-            {caseStudies
-              .filter((b) => b.slug !== params.slug)
-              .map((b) => (
-                <li key={b.slug}>
-                  <Link
-                    href={`/case-studies/${b.slug}`}
-                    className="block text-[#374151] hover:text-[#2563eb] transition"
-                  >
-                    {b.title}
-                  </Link>
-                </li>
-              ))}
+          {caseStudies.map((b) => {
+  const isActive = b.slug === params.slug;
+  return (
+    <li key={b.slug}>
+      <Link
+        href={`/case-studies/${b.slug}`}
+        className={`block px-3 py-2 rounded-md transition font-medium ${
+          isActive
+            ? "border border-purple-500 text-purple-700 bg-purple-50"
+            : "text-[#374151] hover:text-[#2563eb]"
+        }`}
+      >
+        {b.title}
+      </Link>
+    </li>
+  );
+})}
+
           </ul>
         </aside>
       </div>

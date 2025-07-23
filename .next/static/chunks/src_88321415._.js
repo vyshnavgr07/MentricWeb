@@ -241,11 +241,11 @@ const clients = [
         name: "RAMAIAH",
         description: "Renowned educational and healthcare institution based in Bangalore."
     },
-    // {
-    //   src: "/brand11.png",
-    //   name: "TEKTON",
-    //   description: "Renowned educational and healthcare institution based in Bangalore.",
-    // },
+    {
+        src: "/brand11.png",
+        name: "TEKTON",
+        description: "Renowned educational and healthcare institution based in Bangalore."
+    },
     {
         src: "/brand12.png",
         name: "SQUIRREL",
@@ -259,6 +259,11 @@ const clients = [
     {
         src: "/brand15.jpg",
         name: "Handheldspro",
+        description: "Renowned educational and healthcare institution based in Bangalore."
+    },
+    {
+        src: "/brand16.png",
+        name: "Bluescart",
         description: "Renowned educational and healthcare institution based in Bangalore."
     }
 ];
@@ -277,7 +282,7 @@ function ClientsPage() {
                     children: "Our Clients"
                 }, void 0, false, {
                     fileName: "[project]/src/app/clients/page.js",
-                    lineNumber: 113,
+                    lineNumber: 118,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].p, {
@@ -286,7 +291,7 @@ function ClientsPage() {
                     children: "We are proud to work with leading organizations across industries, delivering creative, scalable, and reliable digital solutions."
                 }, void 0, false, {
                     fileName: "[project]/src/app/clients/page.js",
-                    lineNumber: 119,
+                    lineNumber: 124,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -304,12 +309,12 @@ function ClientsPage() {
                                         className: "h-12 object-contain"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/clients/page.js",
-                                        lineNumber: 138,
+                                        lineNumber: 143,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/clients/page.js",
-                                    lineNumber: 137,
+                                    lineNumber: 142,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -317,7 +322,7 @@ function ClientsPage() {
                                     children: client.name
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/clients/page.js",
-                                    lineNumber: 144,
+                                    lineNumber: 149,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -325,29 +330,29 @@ function ClientsPage() {
                                     children: client.description
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/clients/page.js",
-                                    lineNumber: 147,
+                                    lineNumber: 152,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, i, true, {
                             fileName: "[project]/src/app/clients/page.js",
-                            lineNumber: 132,
+                            lineNumber: 137,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/src/app/clients/page.js",
-                    lineNumber: 127,
+                    lineNumber: 132,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/app/clients/page.js",
-            lineNumber: 106,
+            lineNumber: 111,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/app/clients/page.js",
-        lineNumber: 105,
+        lineNumber: 110,
         columnNumber: 5
     }, this);
 }

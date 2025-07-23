@@ -84,7 +84,7 @@ export default function BlogDetail({ params }) {
         <div className="hidden lg:block w-full h-full border-r border-gray-200"></div>
 
         {/* Sidebar */}
-        <aside className="col-span-1 sticky top-20 h-fit bg-white border border-gray-200 rounded-xl shadow p-5">
+        {/* <aside className="col-span-1 sticky top-20 h-fit bg-white border border-gray-200 rounded-xl shadow p-5">
           <h3 className="text-lg font-semibold text-[#111827] mb-4">More Blogs</h3>
           <ul className="space-y-3 text-sm">
             {blogs
@@ -100,7 +100,32 @@ export default function BlogDetail({ params }) {
                 </li>
               ))}
           </ul>
-        </aside>
+        </aside> */}
+
+        {/* Sidebar */}
+<aside className="col-span-1 sticky top-20 h-fit bg-white border border-gray-200 rounded-xl shadow p-5">
+  <h3 className="text-lg font-semibold text-[#111827] mb-4">All Blogs</h3>
+  <ul className="space-y-3 text-sm">
+    {blogs.map((b) => {
+      const isActive = b.slug === params.slug;
+      return (
+        <li key={b.slug}>
+          <Link
+            href={`/blogs/${b.slug}`}
+            className={`block px-3 py-2 rounded-md transition font-medium ${
+              isActive
+                ? "border border-purple-500  bg-purple-50"
+                : "text-[#374151] hover:text-[#2563eb]"
+            }`}
+          >
+            {b.title}
+          </Link>
+        </li>
+      );
+    })}
+  </ul>
+</aside>
+
       </div>
     </div>
   );

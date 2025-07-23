@@ -78,11 +78,11 @@ const clients = [
     name: "RAMAIAH",
     description: "Renowned educational and healthcare institution based in Bangalore.",
   },
-  // {
-  //   src: "/brand11.png",
-  //   name: "TEKTON",
-  //   description: "Renowned educational and healthcare institution based in Bangalore.",
-  // },
+  {
+    src: "/brand11.png",
+    name: "TEKTON",
+    description: "Renowned educational and healthcare institution based in Bangalore.",
+  },
   {
     src: "/brand12.png",
     name: "SQUIRREL",
@@ -96,6 +96,11 @@ const clients = [
   {
     src: "/brand15.jpg",
     name: "Handheldspro",
+    description: "Renowned educational and healthcare institution based in Bangalore.",
+  },
+  {
+    src: "/brand16.png",
+    name: "Bluescart",
     description: "Renowned educational and healthcare institution based in Bangalore.",
   },
 ];

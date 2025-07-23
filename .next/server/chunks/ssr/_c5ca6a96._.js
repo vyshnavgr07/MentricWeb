@@ -439,40 +439,42 @@ function BlogDetail({ params }) {
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                             className: "text-lg font-semibold text-[#111827] mb-4",
-                            children: "More Blogs"
+                            children: "All Blogs"
                         }, void 0, false, {
                             fileName: "[project]/src/app/blogs/[slug]/page.jsx",
-                            lineNumber: 88,
-                            columnNumber: 11
+                            lineNumber: 107,
+                            columnNumber: 3
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
                             className: "space-y-3 text-sm",
-                            children: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$blogData$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["blogs"].filter((b)=>b.slug !== params.slug).map((b)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                    href: `/blogs/${blog.slug}`,
+                            children: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$blogData$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["blogs"].map((b)=>{
+                                const isActive = b.slug === params.slug;
+                                return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                         href: `/blogs/${b.slug}`,
-                                        className: "block text-[#374151] hover:text-[#2563eb] transition",
+                                        className: `block px-3 py-2 rounded-md transition font-medium ${isActive ? "border border-purple-500  bg-purple-50" : "text-[#374151] hover:text-[#2563eb]"}`,
                                         children: b.title
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/blogs/[slug]/page.jsx",
-                                        lineNumber: 94,
-                                        columnNumber: 19
+                                        lineNumber: 113,
+                                        columnNumber: 11
                                     }, this)
-                                }, blog.slug, false, {
+                                }, b.slug, false, {
                                     fileName: "[project]/src/app/blogs/[slug]/page.jsx",
-                                    lineNumber: 93,
-                                    columnNumber: 17
-                                }, this))
+                                    lineNumber: 112,
+                                    columnNumber: 9
+                                }, this);
+                            })
                         }, void 0, false, {
                             fileName: "[project]/src/app/blogs/[slug]/page.jsx",
-                            lineNumber: 89,
-                            columnNumber: 11
+                            lineNumber: 108,
+                            columnNumber: 3
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/blogs/[slug]/page.jsx",
-                    lineNumber: 87,
-                    columnNumber: 9
+                    lineNumber: 106,
+                    columnNumber: 1
                 }, this)
             ]
         }, void 0, true, {
