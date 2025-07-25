@@ -33,7 +33,7 @@ export default function Navbar() {
         </div>
 
         {/* Center: Nav Links (Desktop) */}
-        <nav className="absolute left-1/2 -translate-x-1/2 hidden md:flex gap-8 text-sm font-medium">
+        <nav className="absolute left-1/2 -translate-x-1/2 hidden md:flex gap-8 text-[16px] font-light font-sans">
           {navLinks.map((link) => (
             <a
               key={link.href}

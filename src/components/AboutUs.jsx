@@ -9,7 +9,7 @@ import FBXViewer from "./FBXViewer";
 
 const AboutUs = () => {
   return (
-    <div className="relative h-full md:min-h-screen overflow-x-hidden bg-gradient-to-br from-black to-gray-900 text-white">
+    <div className="relative h-full md:min-h-screen  bg-gradient-to-br from-black to-gray-900   text-white">
       {/* Waves Background */}
       <Waves
         backgroundColor="rgba(255, 255, 255, 0.05)"

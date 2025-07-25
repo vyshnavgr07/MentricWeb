@@ -1238,7 +1238,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$FBXView
 ;
 const AboutUs = ()=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "relative h-full md:min-h-screen overflow-x-hidden bg-gradient-to-br from-black to-gray-900 text-white",
+        className: "relative h-full md:min-h-screen  bg-gradient-to-br from-black to-gray-900   text-white",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Waves$2e$js$2f$Waves$2f$Waves$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                 backgroundColor: "rgba(255, 255, 255, 0.05)",
@@ -1911,6 +1911,7 @@ __turbopack_context__.s({
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$motion$2d$utils$2f$dist$2f$es$2f$easing$2f$ease$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/motion-utils/dist/es/easing/ease.mjs [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ThreeDCard$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/ThreeDCard.jsx [app-client] (ecmascript)");
 "use client";
@@ -1928,13 +1929,8 @@ const fadeInUp = {
         opacity: 1,
         y: 0,
         transition: {
-            duration: 0.7,
-            ease: [
-                0.42,
-                0,
-                0.58,
-                1
-            ]
+            duration: 1,
+            ease: "easeOut"
         }
     }
 };
@@ -1947,13 +1943,8 @@ const slideLeft = {
         opacity: 1,
         x: 0,
         transition: {
-            duration: 0.6,
-            ease: [
-                0.42,
-                0,
-                0.58,
-                1
-            ]
+            duration: 0.8,
+            ease: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$motion$2d$utils$2f$dist$2f$es$2f$easing$2f$ease$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["easeInOut"]
         }
     }
 };
@@ -1966,13 +1957,8 @@ const slideRight = {
         opacity: 1,
         x: 0,
         transition: {
-            duration: 0.6,
-            ease: [
-                0.42,
-                0,
-                0.58,
-                1
-            ]
+            duration: 0.8,
+            ease: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$motion$2d$utils$2f$dist$2f$es$2f$easing$2f$ease$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["easeInOut"]
         }
     }
 };
@@ -1995,7 +1981,7 @@ const AboutusCards = ()=>{
                         children: "About Us"
                     }, void 0, false, {
                         fileName: "[project]/src/components/AboutusCards.jsx",
-                        lineNumber: 55,
+                        lineNumber: 56,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2003,13 +1989,13 @@ const AboutusCards = ()=>{
                         children: "At Mentric Group, our endeavor is to provide holistic training and technology solutions – fundamental and advanced technical skills, soft skills, job-oriented and upskilling training programs – in various sectors. We work with organizations in assessing and improving various management processes using state-of-the-art technology, resulting in efficient utilization of resources."
                     }, void 0, false, {
                         fileName: "[project]/src/components/AboutusCards.jsx",
-                        lineNumber: 58,
+                        lineNumber: 59,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/AboutusCards.jsx",
-                lineNumber: 48,
+                lineNumber: 49,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -2029,12 +2015,12 @@ const AboutusCards = ()=>{
                             alt: "Mentric Technologies"
                         }, void 0, false, {
                             fileName: "[project]/src/components/AboutusCards.jsx",
-                            lineNumber: 74,
+                            lineNumber: 75,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/AboutusCards.jsx",
-                        lineNumber: 70,
+                        lineNumber: 71,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -2046,7 +2032,7 @@ const AboutusCards = ()=>{
                                 children: "Mentric Technologies"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/AboutusCards.jsx",
-                                lineNumber: 84,
+                                lineNumber: 85,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2054,7 +2040,7 @@ const AboutusCards = ()=>{
                                 children: "Mentric Technologies is a forward-thinking digital technology company committed to building impactful and scalable solutions for modern businesses. From custom software development to advanced cloud integrations. With a strong emphasis on innovation, agility, and excellence, we help organizations stay ahead in today’s rapidly evolving tech landscape."
                             }, void 0, false, {
                                 fileName: "[project]/src/components/AboutusCards.jsx",
-                                lineNumber: 85,
+                                lineNumber: 86,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2062,7 +2048,7 @@ const AboutusCards = ()=>{
                                 children: "With a deep focus on the education and training sector, we craft impactful digital solutions that empower educators, ignite student potential, and equip institutions and teams to thrive in a tech-driven future.          "
                             }, void 0, false, {
                                 fileName: "[project]/src/components/AboutusCards.jsx",
-                                lineNumber: 88,
+                                lineNumber: 89,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2070,19 +2056,19 @@ const AboutusCards = ()=>{
                                 children: "Founded in 2017 • Trusted by 50+ clients • Driven by technology & vision"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/AboutusCards.jsx",
-                                lineNumber: 90,
+                                lineNumber: 91,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/AboutusCards.jsx",
-                        lineNumber: 80,
+                        lineNumber: 81,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/AboutusCards.jsx",
-                lineNumber: 64,
+                lineNumber: 65,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -2103,7 +2089,7 @@ const AboutusCards = ()=>{
                                 children: "Mentric Training & Consulting"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/AboutusCards.jsx",
-                                lineNumber: 107,
+                                lineNumber: 108,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2111,7 +2097,7 @@ const AboutusCards = ()=>{
                                 children: "Our consulting division is committed to empowering the next generation of developers, analysts, and technologists through intensive, hands-on training programs."
                             }, void 0, false, {
                                 fileName: "[project]/src/components/AboutusCards.jsx",
-                                lineNumber: 108,
+                                lineNumber: 109,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2119,7 +2105,7 @@ const AboutusCards = ()=>{
                                 children: "We offer mentorship, bootcamps, and real-world project experience to bridge the gap between academic learning and industry requirements."
                             }, void 0, false, {
                                 fileName: "[project]/src/components/AboutusCards.jsx",
-                                lineNumber: 111,
+                                lineNumber: 112,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2127,13 +2113,13 @@ const AboutusCards = ()=>{
                                 children: "100000+ Students Trained • Corporate Workshops • Internship-integrated Learning Paths"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/AboutusCards.jsx",
-                                lineNumber: 114,
+                                lineNumber: 115,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/AboutusCards.jsx",
-                        lineNumber: 103,
+                        lineNumber: 104,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -2144,24 +2130,24 @@ const AboutusCards = ()=>{
                             alt: "Mentric Training & Consulting"
                         }, void 0, false, {
                             fileName: "[project]/src/components/AboutusCards.jsx",
-                            lineNumber: 123,
+                            lineNumber: 124,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/AboutusCards.jsx",
-                        lineNumber: 119,
+                        lineNumber: 120,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/AboutusCards.jsx",
-                lineNumber: 97,
+                lineNumber: 98,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/AboutusCards.jsx",
-        lineNumber: 46,
+        lineNumber: 47,
         columnNumber: 5
     }, this);
 };
@@ -2199,7 +2185,7 @@ var _s = __turbopack_context__.k.signature();
 const products = [
     {
         id: 1,
-        name: "Ascend",
+        name: "ASCEND.",
         tagline: " Empowering Growth Through Smart Technology",
         description: "Scalable, intuitive platforms solving real-world education challenges, empowering teachers, learners, and institutions to grow.",
         image: "/asend.png",
@@ -2411,12 +2397,78 @@ _s(ProductsPage, "nlkEtvb1WsIJBOKI1KjOQ5EcgAA=", false, function() {
     ];
 });
 _c = ProductsPage;
+// function ProductCard({ product, router }) {
+//   return (
+//     <div className="relative h-screen flex flex-col items-center justify-center text-center px-4 ">
+//       {/* Product Image */}
+//       <div className="absolute hidden lg:block top-1   bottom-[calc(50%-20px)] right-[calc(25%-100px)] w-[200px] h-[200px] rounded-full overflow-hidden  shadow-lg">
+//         <Image
+//           src={product.image}
+//           width={320}
+//           height={320}
+//           alt={`${product.name} Logo`}
+//           className="object-cover w-full h-full"
+//         />
+//       </div>
+// <motion.h1
+//   className="text-5xl md:text-8xl font-light mb-6 tracking-tight flex justify-center z-10"
+//   initial="hidden"
+//   animate="visible"
+//   viewport={{ once: false, amount: 0.6 }}
+//   variants={{
+//     visible: {
+//       transition: {
+//         staggerChildren: 0.05,
+//         delayChildren: 0.2,
+//       },
+//     },
+//     hidden: {},
+//   }}
+// >
+//   {product.name.split("").map((letter, index) => (
+//     <motion.span
+//       key={index}
+//       className="inline-block text-shadow-lg text-gray-50 
+//  "
+//       variants={{
+//         hidden: { opacity: 0, scale: 0.5, y: 10 },
+//         visible: { opacity: 1, scale: 1, y: 0 },
+//       }}
+//       transition={{ type: "spring", stiffness: 300, damping: 20 }}
+//     >
+//       {letter}
+//     </motion.span>
+//   ))}
+// </motion.h1>
+//       <motion.p
+//         className="text-lg md:text-xl text-white mb-8 max-w-2xl leading-relaxed z-10"
+//         initial={{ opacity: 0, y: 20 }}
+//         animate={{ opacity: 1, y: 0 }}
+//         transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }}
+//       >
+//         <span className="font-semibold">{product.tagline}</span>
+//         <br />
+//         {product.description}
+//       </motion.p>
+//       {/* CTA Button */}
+//       <motion.button
+//         onClick={() => router.push(product.link)}
+//         className="px-8 py-3 text-lg text-white bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 rounded-full font-semibold shadow-md transition duration-300 z-10"
+//         initial={{ opacity: 0, y: 10 }}
+//         animate={{ opacity: 1, y: 0 }}
+//         transition={{ duration: 0.6, delay: 0.4, ease: "easeOut" }}
+//       >
+//         Learn more →
+//       </motion.button>
+//     </div>
+//   );
+// }
 function ProductCard({ product, router }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "relative h-screen flex flex-col items-center justify-center text-center px-4 ",
+        className: "relative h-screen flex flex-col items-center justify-center text-center px-4",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "absolute hidden lg:block top-1   bottom-[calc(50%-20px)] right-[calc(25%-100px)] w-[200px] h-[200px] rounded-full overflow-hidden  shadow-lg",
+                className: "absolute hidden lg:block top-1 bottom-[calc(50%-20px)] right-[calc(25%-100px)] w-[200px] h-[200px] rounded-full overflow-hidden shadow-lg",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                     src: product.image,
                     width: 320,
@@ -2425,18 +2477,22 @@ function ProductCard({ product, router }) {
                     className: "object-cover w-full h-full"
                 }, void 0, false, {
                     fileName: "[project]/src/components/ProductsPage.jsx",
-                    lineNumber: 112,
+                    lineNumber: 185,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/ProductsPage.jsx",
-                lineNumber: 111,
+                lineNumber: 184,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].h1, {
                 className: "text-5xl md:text-8xl font-light mb-6 tracking-tight flex justify-center z-10",
                 initial: "hidden",
-                animate: "visible",
+                whileInView: "visible",
+                viewport: {
+                    once: false,
+                    amount: 0.6
+                },
                 variants: {
                     visible: {
                         transition: {
@@ -2447,17 +2503,17 @@ function ProductCard({ product, router }) {
                     hidden: {}
                 },
                 children: product.name.split("").map((letter, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].span, {
-                        className: "inline-block text-shadow-lg text-gray-50  ",
+                        className: "inline-block text-shadow-lg text-gray-50",
                         variants: {
                             hidden: {
                                 opacity: 0,
-                                scale: 0.5,
-                                y: 10
+                                y: 40,
+                                scale: 0.8
                             },
                             visible: {
                                 opacity: 1,
-                                scale: 1,
-                                y: 0
+                                y: 0,
+                                scale: 1
                             }
                         },
                         transition: {
@@ -2468,13 +2524,13 @@ function ProductCard({ product, router }) {
                         children: letter
                     }, index, false, {
                         fileName: "[project]/src/components/ProductsPage.jsx",
-                        lineNumber: 137,
-                        columnNumber: 5
+                        lineNumber: 211,
+                        columnNumber: 11
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/src/components/ProductsPage.jsx",
-                lineNumber: 122,
-                columnNumber: 1
+                lineNumber: 195,
+                columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].p, {
                 className: "text-lg md:text-xl text-white mb-8 max-w-2xl leading-relaxed z-10",
@@ -2482,9 +2538,13 @@ function ProductCard({ product, router }) {
                     opacity: 0,
                     y: 20
                 },
-                animate: {
+                whileInView: {
                     opacity: 1,
                     y: 0
+                },
+                viewport: {
+                    once: false,
+                    amount: 0.6
                 },
                 transition: {
                     duration: 0.6,
@@ -2497,19 +2557,19 @@ function ProductCard({ product, router }) {
                         children: product.tagline
                     }, void 0, false, {
                         fileName: "[project]/src/components/ProductsPage.jsx",
-                        lineNumber: 160,
+                        lineNumber: 233,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                         fileName: "[project]/src/components/ProductsPage.jsx",
-                        lineNumber: 161,
+                        lineNumber: 234,
                         columnNumber: 9
                     }, this),
                     product.description
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/ProductsPage.jsx",
-                lineNumber: 154,
+                lineNumber: 226,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].button, {
@@ -2519,9 +2579,13 @@ function ProductCard({ product, router }) {
                     opacity: 0,
                     y: 10
                 },
-                animate: {
+                whileInView: {
                     opacity: 1,
                     y: 0
+                },
+                viewport: {
+                    once: false,
+                    amount: 0.6
                 },
                 transition: {
                     duration: 0.6,
@@ -2531,13 +2595,13 @@ function ProductCard({ product, router }) {
                 children: "Learn more →"
             }, void 0, false, {
                 fileName: "[project]/src/components/ProductsPage.jsx",
-                lineNumber: 166,
+                lineNumber: 239,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/ProductsPage.jsx",
-        lineNumber: 109,
+        lineNumber: 182,
         columnNumber: 5
     }, this);
 }
@@ -2556,12 +2620,12 @@ function ProductCard2({ product, router }) {
                     className: "object-contain w-full  h-full"
                 }, void 0, false, {
                     fileName: "[project]/src/components/ProductsPage.jsx",
-                    lineNumber: 201,
+                    lineNumber: 275,
                     columnNumber: 3
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/ProductsPage.jsx",
-                lineNumber: 200,
+                lineNumber: 274,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].h1, {
@@ -2599,12 +2663,12 @@ function ProductCard2({ product, router }) {
                         children: letter
                     }, index, false, {
                         fileName: "[project]/src/components/ProductsPage.jsx",
-                        lineNumber: 227,
+                        lineNumber: 301,
                         columnNumber: 5
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/src/components/ProductsPage.jsx",
-                lineNumber: 212,
+                lineNumber: 286,
                 columnNumber: 1
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].p, {
@@ -2628,19 +2692,19 @@ function ProductCard2({ product, router }) {
                         children: product.tagline
                     }, void 0, false, {
                         fileName: "[project]/src/components/ProductsPage.jsx",
-                        lineNumber: 250,
+                        lineNumber: 324,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                         fileName: "[project]/src/components/ProductsPage.jsx",
-                        lineNumber: 251,
+                        lineNumber: 325,
                         columnNumber: 9
                     }, this),
                     product.description
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/ProductsPage.jsx",
-                lineNumber: 244,
+                lineNumber: 318,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].button, {
@@ -2662,13 +2726,13 @@ function ProductCard2({ product, router }) {
                 children: "Learn more →"
             }, void 0, false, {
                 fileName: "[project]/src/components/ProductsPage.jsx",
-                lineNumber: 256,
+                lineNumber: 330,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/ProductsPage.jsx",
-        lineNumber: 198,
+        lineNumber: 272,
         columnNumber: 5
     }, this);
 }
@@ -3998,7 +4062,7 @@ function Navbar() {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
-                        className: "absolute left-1/2 -translate-x-1/2 hidden md:flex gap-8 text-sm font-medium",
+                        className: "absolute left-1/2 -translate-x-1/2 hidden md:flex gap-8 text-[16px] font-light font-sans",
                         children: navLinks.map((link)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                 href: link.href,
                                 className: "hover:text-purple-400 transition",

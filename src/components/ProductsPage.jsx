@@ -7,7 +7,7 @@ import Image from "next/image";
 const products = [
   {
     id: 1,
-    name: "Ascend",
+    name: "ASCEND.",
     tagline: " Empowering Growth Through Smart Technology",                                                                                                   
     description:
       "Scalable, intuitive platforms solving real-world education challenges, empowering teachers, learners, and institutions to grow.",   
@@ -104,11 +104,84 @@ const x = useTransform(scrollYProgress, [0, 0.1, 0.3, 0.35], [-200, 0, 0, -200])
 
 
 
+// function ProductCard({ product, router }) {
+//   return (
+//     <div className="relative h-screen flex flex-col items-center justify-center text-center px-4 ">
+//       {/* Product Image */}
+//       <div className="absolute hidden lg:block top-1   bottom-[calc(50%-20px)] right-[calc(25%-100px)] w-[200px] h-[200px] rounded-full overflow-hidden  shadow-lg">
+//         <Image
+//           src={product.image}
+//           width={320}
+//           height={320}
+//           alt={`${product.name} Logo`}
+//           className="object-cover w-full h-full"
+//         />
+//       </div>
+
+   
+// <motion.h1
+//   className="text-5xl md:text-8xl font-light mb-6 tracking-tight flex justify-center z-10"
+//   initial="hidden"
+//   animate="visible"
+//   viewport={{ once: false, amount: 0.6 }}
+//   variants={{
+//     visible: {
+//       transition: {
+//         staggerChildren: 0.05,
+//         delayChildren: 0.2,
+//       },
+//     },
+//     hidden: {},
+//   }}
+// >
+//   {product.name.split("").map((letter, index) => (
+//     <motion.span
+//       key={index}
+//       className="inline-block text-shadow-lg text-gray-50 
+//  "
+//       variants={{
+//         hidden: { opacity: 0, scale: 0.5, y: 10 },
+//         visible: { opacity: 1, scale: 1, y: 0 },
+//       }}
+//       transition={{ type: "spring", stiffness: 300, damping: 20 }}
+//     >
+//       {letter}
+//     </motion.span>
+//   ))}
+// </motion.h1>
+
+
+   
+//       <motion.p
+//         className="text-lg md:text-xl text-white mb-8 max-w-2xl leading-relaxed z-10"
+//         initial={{ opacity: 0, y: 20 }}
+//         animate={{ opacity: 1, y: 0 }}
+//         transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }}
+//       >
+//         <span className="font-semibold">{product.tagline}</span>
+//         <br />
+//         {product.description}
+//       </motion.p>
+
+//       {/* CTA Button */}
+//       <motion.button
+//         onClick={() => router.push(product.link)}
+//         className="px-8 py-3 text-lg text-white bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 rounded-full font-semibold shadow-md transition duration-300 z-10"
+//         initial={{ opacity: 0, y: 10 }}
+//         animate={{ opacity: 1, y: 0 }}
+//         transition={{ duration: 0.6, delay: 0.4, ease: "easeOut" }}
+//       >
+//         Learn more →
+//       </motion.button>
+//     </div>
+//   );
+// }
+
 function ProductCard({ product, router }) {
   return (
-    <div className="relative h-screen flex flex-col items-center justify-center text-center px-4 ">
+    <div className="relative h-screen flex flex-col items-center justify-center text-center px-4">
       {/* Product Image */}
-      <div className="absolute hidden lg:block top-1   bottom-[calc(50%-20px)] right-[calc(25%-100px)] w-[200px] h-[200px] rounded-full overflow-hidden  shadow-lg">
+      <div className="absolute hidden lg:block top-1 bottom-[calc(50%-20px)] right-[calc(25%-100px)] w-[200px] h-[200px] rounded-full overflow-hidden shadow-lg">
         <Image
           src={product.image}
           width={320}
@@ -118,43 +191,43 @@ function ProductCard({ product, router }) {
         />
       </div>
 
-   
-<motion.h1
-  className="text-5xl md:text-8xl font-light mb-6 tracking-tight flex justify-center z-10"
-  initial="hidden"
-  animate="visible"
-  variants={{
-    visible: {
-      transition: {
-        staggerChildren: 0.05,
-        delayChildren: 0.2,
-      },
-    },
-    hidden: {},
-  }}
->
-  {product.name.split("").map((letter, index) => (
-    <motion.span
-      key={index}
-      className="inline-block text-shadow-lg text-gray-50 
- "
-      variants={{
-        hidden: { opacity: 0, scale: 0.5, y: 10 },
-        visible: { opacity: 1, scale: 1, y: 0 },
-      }}
-      transition={{ type: "spring", stiffness: 300, damping: 20 }}
-    >
-      {letter}
-    </motion.span>
-  ))}
-</motion.h1>
+      {/* Animated Product Name */}
+      <motion.h1
+        className="text-5xl md:text-8xl font-light mb-6 tracking-tight flex justify-center z-10"
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: false, amount: 0.6 }}
+        variants={{
+          visible: {
+            transition: {
+              staggerChildren: 0.05,
+              delayChildren: 0.2,
+            },
+          },
+          hidden: {},
+        }}
+      >
+        {product.name.split("").map((letter, index) => (
+          <motion.span
+            key={index}
+            className="inline-block text-shadow-lg text-gray-50"
+            variants={{
+              hidden: { opacity: 0, y: 40, scale: 0.8 },
+              visible: { opacity: 1, y: 0, scale: 1 },
+            }}
+            transition={{ type: "spring", stiffness: 300, damping: 20 }}
+          >
+            {letter}
+          </motion.span>
+        ))}
+      </motion.h1>
 
-
-   
+      {/* Tagline and Description */}
       <motion.p
         className="text-lg md:text-xl text-white mb-8 max-w-2xl leading-relaxed z-10"
         initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: false, amount: 0.6 }}
         transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }}
       >
         <span className="font-semibold">{product.tagline}</span>
@@ -167,7 +240,8 @@ function ProductCard({ product, router }) {
         onClick={() => router.push(product.link)}
         className="px-8 py-3 text-lg text-white bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 rounded-full font-semibold shadow-md transition duration-300 z-10"
         initial={{ opacity: 0, y: 10 }}
-        animate={{ opacity: 1, y: 0 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: false, amount: 0.6 }}
         transition={{ duration: 0.6, delay: 0.4, ease: "easeOut" }}
       >
         Learn more →

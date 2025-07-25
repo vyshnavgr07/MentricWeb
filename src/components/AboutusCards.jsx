@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { motion } from "framer-motion";
+import { easeIn, easeInOut, easeOut, motion } from "framer-motion";
 import ThreeDCard from "./ThreeDCard";
 
 // Animation Variants
@@ -11,9 +11,10 @@ const fadeInUp = {
     opacity: 1,
     y: 0,
     transition: {
-      duration: 0.7,
-      ease: [0.42, 0, 0.58, 1], // smoother cubic-bezier easing
-    },
+      duration: 1,
+      ease: "easeOut" 
+    }
+    
   },
 };
 
@@ -23,8 +24,8 @@ const slideLeft = {
     opacity: 1,
     x: 0,
     transition: {
-      duration: 0.6,
-      ease: [0.42, 0, 0.58, 1],
+      duration:0.8,
+      ease:easeInOut,
     },
   },
 };
@@ -35,8 +36,8 @@ const slideRight = {
     opacity: 1,
     x: 0,
     transition: {
-      duration: 0.6,
-      ease: [0.42, 0, 0.58, 1],
+      duration:0.8,
+      ease:easeInOut,
     },
   },
 };
