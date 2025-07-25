@@ -1817,7 +1817,7 @@ const fadeInUp = {
 const slideLeft = {
     hidden: {
         opacity: 0,
-        x: -50
+        x: -40
     },
     visible: {
         opacity: 1,
