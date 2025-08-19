@@ -36,7 +36,7 @@ const services = [
 
 const Services = () => {
   return (
-    <section className="relative px-6 md:px-20 py-24 overflow-hidden bg-black text-white">
+    <section className="relative px-1 md:px-20 py-24 overflow-hidden bg-black text-white ">
       {/* Background Blobs */}
       <div className="absolute -top-20 -left-20 w-80 h-80 bg-purple-600 rounded-full opacity-20 blur-3xl z-0" />
       <div className="absolute bottom-0 right-0 w-80 h-80 bg-indigo-500 rounded-full opacity-10 blur-3xl z-0" />
@@ -55,7 +55,7 @@ const Services = () => {
       </div>
 
       {/* Cards Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 z-10 relative bg-blue-950 rounded-md">
+      <div className="grid grid-cols-1 px-2 sm:grid-cols-2 z-10 relative bg-blue-950 rounded-md">
         {services.map((service, index) => (
           <ServiceCard
             key={index}

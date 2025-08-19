@@ -386,6 +386,10 @@
   :root, :host {
     --font-sans: var(--font-geist-sans);
     --font-mono: var(--font-geist-mono);
+    --color-red-600: oklch(57.7% .245 27.325);
+    --color-red-700: oklch(50.5% .213 27.518);
+    --color-amber-300: oklch(87.9% .169 91.605);
+    --color-amber-500: oklch(76.9% .188 70.08);
     --color-yellow-600: oklch(68.1% .162 75.834);
     --color-emerald-500: oklch(69.6% .17 162.48);
     --color-blue-500: oklch(62.3% .214 259.815);
@@ -1375,6 +1379,10 @@
     gap: calc(var(--spacing) * 15);
   }
 
+  .gap-16 {
+    gap: calc(var(--spacing) * 16);
+  }
+
   :where(.space-y-2 > :not(:last-child)) {
     --tw-space-y-reverse: 0;
     margin-block-start: calc(calc(var(--spacing) * 2) * var(--tw-space-y-reverse));
@@ -1547,6 +1555,14 @@
     background-color: #fefcfb;
   }
 
+  .bg-amber-300 {
+    background-color: var(--color-amber-300);
+  }
+
+  .bg-amber-500 {
+    background-color: var(--color-amber-500);
+  }
+
   .bg-black {
     background-color: var(--color-black);
   }
@@ -1617,6 +1633,14 @@
 
   .bg-purple-600 {
     background-color: var(--color-purple-600);
+  }
+
+  .bg-red-600 {
+    background-color: var(--color-red-600);
+  }
+
+  .bg-red-700 {
+    background-color: var(--color-red-700);
   }
 
   .bg-slate-800 {
@@ -1923,6 +1947,14 @@
     padding: 2px;
   }
 
+  .px-1 {
+    padding-inline: calc(var(--spacing) * 1);
+  }
+
+  .px-2 {
+    padding-inline: calc(var(--spacing) * 2);
+  }
+
   .px-3 {
     padding-inline: calc(var(--spacing) * 3);
   }
@@ -2120,6 +2152,10 @@
   .tracking-wide {
     --tw-tracking: var(--tracking-wide);
     letter-spacing: var(--tracking-wide);
+  }
+
+  .whitespace-nowrap {
+    white-space: nowrap;
   }
 
   .whitespace-pre-line {
@@ -2769,6 +2805,18 @@
   }
 
   @media (width >= 40rem) {
+    .sm\:flex-row {
+      flex-direction: row;
+    }
+  }
+
+  @media (width >= 40rem) {
+    .sm\:items-center {
+      align-items: center;
+    }
+  }
+
+  @media (width >= 40rem) {
     .sm\:px-6 {
       padding-inline: calc(var(--spacing) * 6);
     }
@@ -2833,6 +2881,12 @@
   @media (width >= 48rem) {
     .md\:w-1\/2 {
       width: 50%;
+    }
+  }
+
+  @media (width >= 48rem) {
+    .md\:w-\[600px\] {
+      width: 600px;
     }
   }
 

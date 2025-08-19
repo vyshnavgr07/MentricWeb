@@ -1,31 +1,168 @@
+// "use client";
+
+// import React from "react";
+// import { easeIn, easeInOut, easeOut, motion } from "framer-motion";
+// import ThreeDCard from "./ThreeDCard";
+
+// // Animation Variants
+// const fadeInUp = {
+//   hidden: { opacity: 0, y: 40 },
+//   visible: {
+//     opacity: 1,
+//     y: 0,
+//     transition: {
+//       duration: 1,
+//       ease: "easeOut" 
+//     }
+    
+//   },
+// };
+
+// const slideLeft = {
+//   hidden: { opacity: 0, x: -40 },
+//   visible: {
+//     opacity: 1,
+//     x: 0,
+//     transition: {
+//       duration:0.8,
+//       ease:easeInOut,
+//     },
+//   },
+// };
+
+// const slideRight = {
+//   hidden: { opacity: 0, x: 50 },
+//   visible: {
+//     opacity: 1,
+//     x: 0,
+//     transition: {
+//       duration:0.8,
+//       ease:easeInOut,
+//     },
+//   },
+// };
+
+// const AboutusCards = () => {
+//   return (
+//     <div className="w-full max-w-[100vw] overflow-x-hidden px-6 md:px-16 py-16 text-white flex flex-col gap-10">
+//       {/* Section Header */}
+//       <motion.div
+//         variants={fadeInUp}
+//         initial="hidden"
+//         whileInView="visible"
+//         viewport={{ once: true, amount: 0.5 }}
+//         className="text-center px-4 md:px-0 max-w-4xl mx-auto"
+//       >
+//         <h1 className="text-4xl md:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-500 leading-tight">
+//           About Us
+//         </h1>
+//         <p className="mt-6 text-gray-300 text-base md:text-lg leading-relaxed">
+//           At Mentric Group, our endeavor is to provide holistic training and technology solutions – fundamental and advanced technical skills, soft skills, job-oriented and upskilling training programs – in various sectors. We work with organizations in assessing and improving various management processes using state-of-the-art technology, resulting in efficient utilization of resources.
+//         </p>
+//       </motion.div>
+
+//       {/* Row 1: Mentric Technologies */}
+//       <motion.div
+//         className="w-full flex flex-col md:flex-row items-center justify-center gap-10"
+//         initial="hidden"
+//         whileInView="visible"
+//         viewport={{ once: true, amount: 0.5 }}
+//       >
+//         <motion.div
+//           className="w-full md:w-1/2 flex justify-center"
+//           variants={slideLeft}
+//         >
+//           <ThreeDCard
+//             image="https://images.unsplash.com/photo-1504384308090-c894fdcc538d"
+//             alt="Mentric Technologies"
+//           />
+//         </motion.div>
+
+//         <motion.div
+//           className="w-full md:w-1/2 space-y-6"
+//           variants={slideRight}
+//         >
+//           <h2 className="text-4xl font-bold text-purple-400">Mentric Technologies</h2>
+//           <p className="text-gray-300 text-lg">
+//           Mentric Technologies is a forward-thinking digital technology company committed to building impactful and scalable solutions for modern businesses. From custom software development to advanced cloud integrations. With a strong emphasis on innovation, agility, and excellence, we help organizations stay ahead in today’s rapidly evolving tech landscape.
+//           </p>
+//           <p className="text-gray-400">
+//           With a deep focus on the education and training sector, we craft impactful digital solutions that empower educators, ignite student potential, and equip institutions and teams to thrive in a tech-driven future.          </p>
+//           <p className="text-gray-500 text-sm">
+//             Founded in 2017 • Trusted by 50+ clients • Driven by technology & vision
+//           </p>
+//         </motion.div>
+//       </motion.div>
+
+//       {/* Row 2: Mentric Training & Consulting */} 
+//       <motion.div
+//         className="w-full flex flex-col md:flex-row items-center justify-center gap-10"
+//         initial="hidden"
+//         whileInView="visible"
+//         viewport={{ once: true, amount: 0.5 }}
+//       >
+//         <motion.div
+//           className="w-full md:w-1/2 space-y-6"
+//           variants={slideLeft}
+//         >
+//           <h2 className="text-4xl font-bold text-purple-400">Mentric Training & Consulting</h2>
+//           <p className="text-gray-300 text-lg">
+//             Our consulting division is committed to empowering the next generation of developers, analysts, and technologists through intensive, hands-on training programs.
+//           </p>
+//           <p className="text-gray-400">
+//             We offer mentorship, bootcamps, and real-world project experience to bridge the gap between academic learning and industry requirements.
+//           </p>
+//           <p className="text-gray-500 text-sm">
+//             100000+ Students Trained • Corporate Workshops • Internship-integrated Learning Paths
+//           </p>
+//         </motion.div>
+
+//         <motion.div
+//           className="w-full md:w-1/2 flex justify-center"
+//           variants={slideRight}
+//         >
+//           <ThreeDCard
+//             image="/training.jpg"
+//             alt="Mentric Training & Consulting"
+//           />
+//         </motion.div>
+//       </motion.div>
+//     </div>
+//   );
+// };
+
+// export default AboutusCards;
+
+
+
 "use client";
 
 import React from "react";
-import { easeIn, easeInOut, easeOut, motion } from "framer-motion";
+import { motion } from "framer-motion";
 import ThreeDCard from "./ThreeDCard";
 
-// Animation Variants
-const fadeInUp = {
+// 🔹 Smooth fade + lift (linear wave, no spring lag)
+const smoothFadeUp = {
   hidden: { opacity: 0, y: 40 },
   visible: {
     opacity: 1,
     y: 0,
     transition: {
-      duration: 1,
-      ease: "easeOut" 
-    }
-    
+      duration: 0.8,
+      ease: "easeInOut",
+    },
   },
 };
 
+// 🔹 Slide animations (same timing)
 const slideLeft = {
-  hidden: { opacity: 0, x: -40 },
+  hidden: { opacity: 0, x: -50 },
   visible: {
     opacity: 1,
     x: 0,
     transition: {
-      duration:0.8,
-      ease:easeInOut,
+      duration: 0.8,
+      ease: "easeInOut",
     },
   },
 };
@@ -36,18 +173,18 @@ const slideRight = {
     opacity: 1,
     x: 0,
     transition: {
-      duration:0.8,
-      ease:easeInOut,
+      duration: 0.8,
+      ease: "easeInOut",
     },
   },
 };
 
 const AboutusCards = () => {
   return (
-    <div className="w-full max-w-[100vw] overflow-x-hidden px-6 md:px-16 py-16 text-white flex flex-col gap-10">
+    <div className="w-full max-w-[100vw] overflow-x-hidden px-6 md:px-16 py-16 text-white flex flex-col gap-16">
       {/* Section Header */}
       <motion.div
-        variants={fadeInUp}
+        variants={smoothFadeUp}
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, amount: 0.5 }}
@@ -56,17 +193,23 @@ const AboutusCards = () => {
         <h1 className="text-4xl md:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-500 leading-tight">
           About Us
         </h1>
+
         <p className="mt-6 text-gray-300 text-base md:text-lg leading-relaxed">
-          At Mentric Group, our endeavor is to provide holistic training and technology solutions – fundamental and advanced technical skills, soft skills, job-oriented and upskilling training programs – in various sectors. We work with organizations in assessing and improving various management processes using state-of-the-art technology, resulting in efficient utilization of resources.
+          At Mentric Group, our endeavor is to provide holistic training and
+          technology solutions – fundamental and advanced technical skills, soft
+          skills, job-oriented and upskilling training programs – in various
+          sectors. We work with organizations in assessing and improving various
+          management processes using state-of-the-art technology, resulting in
+          efficient utilization of resources.
         </p>
       </motion.div>
 
       {/* Row 1: Mentric Technologies */}
       <motion.div
-        className="w-full flex flex-col md:flex-row items-center justify-center gap-10"
         initial="hidden"
         whileInView="visible"
-        viewport={{ once: true, amount: 0.5 }}
+        viewport={{ once: true, amount: 0.4 }}
+        className="w-full flex flex-col md:flex-row items-center justify-center gap-10"
       >
         <motion.div
           className="w-full md:w-1/2 flex justify-center"
@@ -82,38 +225,56 @@ const AboutusCards = () => {
           className="w-full md:w-1/2 space-y-6"
           variants={slideRight}
         >
-          <h2 className="text-4xl font-bold text-purple-400">Mentric Technologies</h2>
+          <h2 className="text-4xl font-bold text-purple-400">
+            Mentric Technologies
+          </h2>
           <p className="text-gray-300 text-lg">
-          Mentric Technologies is a forward-thinking digital technology company committed to building impactful and scalable solutions for modern businesses. From custom software development to advanced cloud integrations. With a strong emphasis on innovation, agility, and excellence, we help organizations stay ahead in today’s rapidly evolving tech landscape.
+            Mentric Technologies is a forward-thinking digital technology
+            company committed to building impactful and scalable solutions for
+            modern businesses. From custom software development to advanced
+            cloud integrations. With a strong emphasis on innovation, agility,
+            and excellence, we help organizations stay ahead in today’s rapidly
+            evolving tech landscape.
           </p>
           <p className="text-gray-400">
-          With a deep focus on the education and training sector, we craft impactful digital solutions that empower educators, ignite student potential, and equip institutions and teams to thrive in a tech-driven future.          </p>
+            With a deep focus on the education and training sector, we craft
+            impactful digital solutions that empower educators, ignite student
+            potential, and equip institutions and teams to thrive in a
+            tech-driven future.
+          </p>
           <p className="text-gray-500 text-sm">
-            Founded in 2017 • Trusted by 50+ clients • Driven by technology & vision
+            Founded in 2017 • Trusted by 50+ clients • Driven by technology &
+            vision
           </p>
         </motion.div>
       </motion.div>
 
-      {/* Row 2: Mentric Training & Consulting */} 
+      {/* Row 2: Mentric Training & Consulting */}
       <motion.div
-        className="w-full flex flex-col md:flex-row items-center justify-center gap-10"
         initial="hidden"
         whileInView="visible"
-        viewport={{ once: true, amount: 0.5 }}
+        viewport={{ once: true, amount: 0.4 }}
+        className="w-full flex flex-col md:flex-row items-center justify-center gap-10"
       >
         <motion.div
           className="w-full md:w-1/2 space-y-6"
           variants={slideLeft}
         >
-          <h2 className="text-4xl font-bold text-purple-400">Mentric Training & Consulting</h2>
+          <h2 className="text-4xl font-bold text-purple-400">
+            Mentric Training & Consulting
+          </h2>
           <p className="text-gray-300 text-lg">
-            Our consulting division is committed to empowering the next generation of developers, analysts, and technologists through intensive, hands-on training programs.
+            Our consulting division is committed to empowering the next
+            generation of developers, analysts, and technologists through
+            intensive, hands-on training programs.
           </p>
           <p className="text-gray-400">
-            We offer mentorship, bootcamps, and real-world project experience to bridge the gap between academic learning and industry requirements.
+            We offer mentorship, bootcamps, and real-world project experience to
+            bridge the gap between academic learning and industry requirements.
           </p>
           <p className="text-gray-500 text-sm">
-            100000+ Students Trained • Corporate Workshops • Internship-integrated Learning Paths
+            100000+ Students Trained • Corporate Workshops •
+            Internship-integrated Learning Paths
           </p>
         </motion.div>
 

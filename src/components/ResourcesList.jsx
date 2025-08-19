@@ -140,7 +140,7 @@ export default function ScrollImageCards() {
   const router = useRouter();
 
   return (
-    <div style={container}>
+    <div style={container} className="px-4 ">
       <div className="text-center z-10 relative ">
         <h1 className="text-4xl md:text-6xl font-bold leading-tight">
           Our{" "}

@@ -9,20 +9,23 @@ import FBXViewer from "./FBXViewer";
 
 const AboutUs = () => {
   return (
-    <div className="relative h-full md:min-h-screen  bg-gradient-to-br from-black to-gray-900   text-white">
+    <div className="relative h-full md:min-h-screen  bg-gradient-to-br from-black to-gray-900    text-white">
       {/* Waves Background */}
-      <Waves
-        backgroundColor="rgba(255, 255, 255, 0.05)"
-        waveSpeedX={0.02}
-        waveSpeedY={0.01}
-        waveAmpX={40}
-        waveAmpY={20}
-        friction={0.9}
-        tension={0.01}
-        maxCursorMove={120}
-        xGap={10}
-        yGap={36}
-      />
+      <div className="absolute inset-0 overflow-hidden z-0">
+  <Waves
+    backgroundColor="rgba(255, 255, 255, 0.05)"
+    waveSpeedX={0.02}
+    waveSpeedY={0.01}
+    waveAmpX={40}
+    waveAmpY={20}
+    friction={0.9}
+    tension={0.01}
+    maxCursorMove={120}
+    xGap={10}
+    yGap={36}
+  />
+</div>
+
 
       {/* Header */}
       <header className="absolute top-0 left-0 w-full z-20 py-4">
@@ -45,7 +48,7 @@ const AboutUs = () => {
       <section className="relative z-10 flex flex-col-reverse   lg:flex-row items-center justify-between gap-12 md:gap-20   px-4 sm:px-6 md:px-12 xl:px-20 xl:py-20 md:py-32 max-w-screen-xl mx-auto">
         {/* Background Effects */}
         <motion.div
-          className="absolute left-0 top-0 w-[600px] h-[600px] z-0"
+          className="absolute left-0 top-0 w-full md:w-[600px] h-[600px] z-0"
           style={{
             background: "radial-gradient(circle at top left, #6b21a8, transparent 70%)",
             clipPath: "circle(60% at 30% 40%)",
@@ -55,17 +58,6 @@ const AboutUs = () => {
           transition={{ duration: 1.5 }}
         />
 
-        {/* Floating Blobs */}
-        <motion.div
-          className="absolute -top-20 -left-20 w-72 h-72 bg-purple-600 rounded-full opacity-20 blur-3xl z-0"
-          animate={{ y: [0, 20, 0], scale: [1, 1.05, 1] }}
-          transition={{ duration: 8, repeat: Infinity }}
-        />
-        <motion.div
-          className="absolute bottom-0 right-0 w-72 h-72 bg-indigo-500 rounded-full opacity-10 blur-3xl z-0"
-          animate={{ y: [0, -20, 0], scale: [1, 1.1, 1] }}
-          transition={{ duration: 10, repeat: Infinity }}
-        />
 
         {/* Text Content */}
         <motion.div
@@ -79,7 +71,7 @@ const AboutUs = () => {
             Make your move{" "}
               <span className="bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent">
                 <Typewriter
-                  words={["into the progress.", "toward aspiration.", "into the virtual."]}
+                  words={["to progress.", "toward aspiration.", "to the virtual."]}
                   loop={0}
                   cursor
                   cursorStyle="_"
@@ -90,6 +82,8 @@ const AboutUs = () => {
               </span>
             </h1>
           </div>
+
+
 
           <p className="text-gray-300 text-sm sm:text-base md:text-2xl xl:text-xl leading-relaxed">
           Transform Your Virtual Venture with Our Professional Digital Excellence and Expertise
