@@ -173,7 +173,7 @@ export default function ScrollImageCards() {
                 style={buttonStyle}
                 onClick={() => router.push(link)}
               >
-                Learn More
+               View More
               </button>
             </div>
           </motion.div>
